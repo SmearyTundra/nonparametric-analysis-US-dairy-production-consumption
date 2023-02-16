@@ -1,0 +1,148 @@
+\documentclass{article}
+
+\newcommand{\coursename}{Nonparametric Statistics}
+\newcommand{\coursecode}{055702, 8 CFU}
+\newcommand{\courseprof}{F. Ieva and S. Vantini}
+\newcommand{\papertitle}{Nonparametric Analysis of US Dairy Production and Consumption}
+
+\usepackage[british]{babel} % british per avere l'access date nella bibliografia come i comuni mortali
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.5in]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{lipsum}
+\usepackage{longtable} % for table 
+\usepackage{subcaption}
+
+% Removes the header from odd empty pages at the end of chapters
+\makeatletter
+\renewcommand{\cleardoublepage}{
+\clearpage\ifodd\c@page\else
+\hbox{}
+\vspace*{\fill}
+\thispagestyle{empty}
+\newpage
+\fi}
+
+\usepackage{multicol}
+\usepackage[none]{hyphenat}
+\usepackage[small]{titlesec}
+
+% Bibliography
+\usepackage{csquotes}% Recommended
+\usepackage[
+    style=numeric,
+    url=true,
+    sorting=none
+    ]{biblatex}
+\addbibresource{./bibliography.bib}% Syntax for version >= 1.2
+
+\usepackage{import}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\graphicspath{ {./images/} } % Path relative to the main .tex file
+\usepackage{float}
+\usepackage[font=footnotesize]{caption}
+\usepackage{booktabs}
+
+\usepackage{fontawesome}
+
+\usepackage{siunitx}
+
+\usepackage{placeins} % The placeins package gives the command \FloatBarrier, which will make sure any floats will be put in before this point
+\usepackage{flafter}  % The flafter package ensures that floats don't appear until after they appear in the code.
+\newcommand{\fg}[3][\relax]{%
+  \begin{figure}[H]%[htp]%
+    \centering
+    \captionsetup{width=0.7\textwidth}
+      \includegraphics[width = #2\textwidth]{#3}%
+      \ifx\relax#1\else\caption{#1}\fi
+      \label{#3}
+  \end{figure}%
+  \FloatBarrier%
+}
+
+\usepackage{bookmark}% loads hyperref too
+    \hypersetup{
+        %pdftitle={Fundamentos de C\'alculo},
+        %pdfsubject={C\'alculo diferencial},
+        bookmarksnumbered=true,
+        bookmarksopen=true,
+        bookmarksopenlevel=1,
+        hidelinks,% remove border and color
+        pdfstartview=Fit, % Fits the page to the window.
+        pdfpagemode=UseOutlines, %Determines how the file is opening in Acrobat; the possibilities are UseNone, UseThumbs (show thumbnails), UseOutlines (show bookmarks), FullScreen, UseOC (PDF 1.5), and UseAttachments (PDF 1.6). If no mode if explicitly chosen, but the bookmarks option is set, UseOutlines is used.
+    }
+
+\setlength{\marginparwidth}{3.4cm}
+
+%#########################################################
+
+\title{
+    \begin{figure}[htpb]
+        \centering
+        \includegraphics[scale=0.2]{images/logo-polimi}
+    \end{figure}
+    \normalfont \normalsize 
+    \textsc{MSc. in Mathematical Engineering A.Y. 2022/2023\\ 
+    Project Report of \coursename\ (\coursecode) \\
+    Professors: \courseprof} \\
+    [10pt] 
+    \rule{\linewidth}{0.5pt} \\ [6pt] 
+    \huge \papertitle \\
+    \rule{\linewidth}{2pt}  \\ [10pt]
+}
+
+\author{
+Teo Bucci\thanks{\texttt{teo.bucci@mail.polimi.it}, 10621873}
+\and
+Filippo Cipriani\thanks{\texttt{filippo.cipriani@mail.polimi.it}, 10596877}
+\and
+Gabriele Corbo\thanks{\texttt{gabriele.corbo@mail.polimi.it}, 10629702}
+\and
+Andrea Puricelli\thanks{\texttt{andrea3.puricelli@mail.polimi.it}, 10632135}
+\and
+}
+
+%\date{\normalsize \today}
+\date{\normalsize February 17th, 2023}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    This report presents a nonparametric analysis of the evolution of dairy production and consumption in the United States from 1980 to 2021. It starts from the need of a stakeholder who is about to enter the market and step-by-step presents our analysis and the findings to provide meaningful information to optimize production and pricing. We also provide an outlier analysis in terms of years and, in the last part, a spatial analysis and clustering of the types of cheese.
+
+    \vspace*{0.5cm}
+
+    \begin{center}
+        The source code of the entire project is available at\\
+        \faGithub\ \href{https://github.com/SmearyTundra/nonparametric-analysis-US-dairy-production-consumption}{\texttt{SmearyTundra/nonparametric-analysis-US-dairy-production-consumption}}
+    \end{center}
+\end{abstract}
+
+\clearpage
+
+\tableofcontents
+
+\setlength{\columnsep}{0.8cm}
+%\begin{multicols}{2}
+    \input{content}
+%\end{multicols}
+
+% USE NOCITE TO ADD SOURCES TO THE BIBLIOGRAPHY WITHOUT SPECIFICALLY CITING THEM IN THE DOCUMENT
+%\nocite{zhixiong_modelling_2015}
+%\nocite{*}
+
+%$$H_0: \beta_{\texttt{Slaughter cow price }} =0 \quad vs \quad \beta_{\texttt{Slaughter cow price }} \neq 0$$
+
+%$$H_0: \beta_{\texttt{Dairy ration }} =0 \quad vs \quad \beta_{\texttt{Dairy ration }} \neq 0$$
+
+
+\clearpage
+%\nocite{*}
+\printbibliography
+%\cleardoublepage
+\end{document}
