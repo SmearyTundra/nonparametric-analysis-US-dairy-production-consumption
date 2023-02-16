@@ -10,7 +10,7 @@ library(visreg)
 #install_github("mfasiolo/mgcViz")
 #library(mgcViz) 
 
-source("10-Prepare_data_spatial_all.R")
+source("05-Prepare-data-spatial.R", echo=TRUE)
 #which(milk_sales_county_2017$Cows>=400000)
 #milk_sales_county_2017 <- milk_sales_county_2017[-34,]
 
@@ -29,7 +29,6 @@ pl <- plot(sm(b, 1)) + l_fitRaster() + l_fitContour() +
   xlab("Longitude") + ylab("Latitude")
 pl
 
-ggsave("output/model1_coeff.pdf")
 x_grid <- map_data ("state")$long
 y_grid <- map_data ("state")$lat
 
@@ -78,8 +77,6 @@ pl <- plot(sm(b, 1)) + l_fitRaster() + l_fitContour() +
   xlab("Longitude") + ylab("Latitude")
 pl
 
-ggsave("output/model2_coeff.pdf")
-
 # Make the perspective plot with error surfaces
 vis.gam(tensor_mod2, view = c("y", "x"), 
         plot.type = "persp", se = 2)
@@ -94,34 +91,8 @@ points(dat1)
 visreg(tensor_mod2)
 
 
-
-
-######### PREDICTION
+# PREDICTION
 library(ggplot2)
-x1.grid=-100
-x2.grid=35
-grid=expand.grid(x1.grid,x2.grid)
-names(grid) = c("y","x")
-predict(mod2d, newdata=grid)
-
-
-
-x_grid <- readRDS("x_grid_prediction_real_cases.rds")
-y_grid <- readRDS("y_grid_prediction_real_cases.rds")
-grid <- data.frame(x=y_grid,y=x_grid)
-
-preds <- predict(mod2d,newdata=grid)
-preds
-
-df <- cbind(x_grid,y_grid,as.data.frame(preds))
-ggplot(as.data.frame(df), aes(x_grid, y_grid, col=preds)) +
-geom_point(alpha=0.5) +
-scale_color_gradient(low="red", high="yellow")  +
-    geom_polygon( data=map_data("state"), aes(x=long, y=lat, group=group),
-                  color="black", fill="lightblue", alpha=0.1 ) 
-    
-grid <- readRDS("grid_no_masked.rds")
-grid <- data.frame(x=grid[,2],y=grid[,1])
 
 x_grid <- seq(-118,-104, by = 0.01)
 y_grid <- seq(36,43, by = 0.01)
@@ -137,4 +108,3 @@ ggplot(as.data.frame(df), aes(y,x, col=preds)) +
     geom_polygon( data=map_data("county"), aes(x=long, y=lat, group=group),
                   color="black", fill="lightblue", alpha=0.1 ) +
     guides(color = guide_legend(title = "log(Sales)"))
-ggsave("output/utah_preds.pdf", width = 5, height = 5)
