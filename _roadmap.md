@@ -56,8 +56,8 @@ Andre
 - [x] descrizione dataset nel report
 - [x] verbalizzare parte outlier anni e letta generale se il collante funziona
 
-- [ ] Sistemare il README
-- [ ] caricare il report nella repo
+- [x] Sistemare il README
+- [x] caricare il report nella repo
 - [ ] caricare le slides finali nella repo
 
 ## Sources
