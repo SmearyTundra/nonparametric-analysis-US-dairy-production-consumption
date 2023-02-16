@@ -66,12 +66,14 @@ install.packages(packages_list)
 
 # Running the analysis
 
-The repository contains different files to perform the analysis
+The repository contains different files to perform the analysis, here we report their explanation together with a hyperlink to the knitted PDF version:
 
-TODO spiegare
-- `FILENAME.R` explained
-- `FILENAME.R` explained
-- `FILENAME.R` explained
+- [`01-GAM.pdf`](./01-GAM.pdf) provides the implementation for the GAM model and the reverse percentile bootstrap confindence intervals.
+- [`02-Permutation-Tests-for-GAM.pdf`](./02-Permutation-Tests-for-GAM.pdf) contains the permutation tests performed to reduce GAM and keep significant covariates only.
+- [`03-Conformal-Prediction.pdf`](./03-Conformal-Prediction.pdf) contains the implementation of the prediction intervals using a conformal approach.
+- [`04-Robustness.pdf`](./04-Robustness.pdf) contains the robust regression used to detect years outliers.
+- SPATIAL
+- [`06-Functional-Depth.pdf`](./06-Functional-Depth.pdf) contains the Bayesian nonparametric clustering as well as an exploratory analysis of such clusters using depth measures.
 
 # Final results
 
