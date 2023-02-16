@@ -20,7 +20,7 @@ We present a nonparametric analysis of the evolution of dairy production and con
 ## How to clone the repository
 
 ```
-git clone https://github.com/teobucci/bayesian-statistics-project
+git clone https://github.com/SmearyTundra/nonparametric-analysis-US-dairy-production-consumption
 git submodule update --init
 git submodule update --recursive
 ```
@@ -32,7 +32,35 @@ Install the required packages from CRAN
 ```
 packages_list <-
     c(
-        "tidyverse"
+        "tidyverse",
+        "ggplot2",
+        "mgcv",
+        "rgl",
+        "splines",
+        "conformalInference",
+        "pbapply",
+        "parallel",
+        "DepthProc",
+        "progress",
+        "dbscan",
+        "beadplexr",
+        "robustbase",
+        "readxl",
+        "tidyr",
+        "ISLR2",
+        "car",
+        "sp",
+        "devtools",
+        "visreg",
+        "mgcViz",
+        "usmap",
+        "raster",
+        "sf",
+        "maps",
+        "ggspatial",
+        "BNPTSclust",
+        "roahd",
+        "fda.usc"
     )
 install.packages(packages_list)
 ```
