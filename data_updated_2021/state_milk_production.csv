@@ -1,0 +1,2401 @@
+region,state,year,milk_produced
+Northeast,Maine,1970,619000000
+Northeast,New Hampshire,1970,356000000
+Northeast,Vermont,1970,1970000000
+Northeast,Massachusetts,1970,658000000
+Northeast,Rhode Island,1970,75000000
+Northeast,Connecticut,1970,661000000
+Northeast,New York,1970,10341000000
+Northeast,New Jersey,1970,730000000
+Northeast,Pennsylvania,1970,7124000000
+Northeast,Delaware,1970,130000000
+Northeast,Maryland,1970,1560000000
+Lake States,Michigan,1970,4602000000
+Lake States,Wisconsin,1970,18435000000
+Lake States,Minnesota,1970,9636000000
+Corn Belt,Ohio,1970,4420000000
+Corn Belt,Indiana,1970,2382000000
+Corn Belt,Illinois,1970,2850000000
+Corn Belt,Iowa,1970,4670000000
+Corn Belt,Missouri,1970,3012000000
+Northern Plains,North Dakota,1970,1065000000
+Northern Plains,South Dakota,1970,1578000000
+Northern Plains,Nebraska,1970,1566000000
+Northern Plains,Kansas,1970,1740000000
+Appalachian,Virginia,1970,1749000000
+Appalachian,West Virginia,1970,374000000
+Appalachian,North Carolina,1970,1485000000
+Appalachian,Kentucky,1970,2471000000
+Appalachian,Tennessee,1970,2123000000
+Southeast,South Carolina,1970,512000000
+Southeast,Georgia,1970,1182000000
+Southeast,Florida,1970,1641000000
+Southeast,Alabama,1970,816000000
+Delta States,Mississippi,1970,1049000000
+Delta States,Arkansas,1970,685000000
+Delta States,Louisiana,1970,1089000000
+Southern Plains,Oklahoma,1970,1250000000
+Southern Plains,Texas,1970,3065000000
+Mountain,Montana,1970,326000000
+Mountain,Idaho,1970,1490000000
+Mountain,Wyoming,1970,140000000
+Mountain,Colorado,1970,856000000
+Mountain,New Mexico,1970,304000000
+Mountain,Arizona,1970,585000000
+Mountain,Utah,1970,819000000
+Mountain,Nevada,1970,142000000
+Pacific,Washington,1970,2091000000
+Pacific,Oregon,1970,970000000
+Pacific,California,1970,9457000000
+Pacific,Alaska,1970,19000000
+Pacific,Hawaii,1970,137000000
+Northeast,Maine,1971,629000000
+Northeast,New Hampshire,1971,359000000
+Northeast,Vermont,1971,2025000000
+Northeast,Massachusetts,1971,658000000
+Northeast,Rhode Island,1971,70000000
+Northeast,Connecticut,1971,660000000
+Northeast,New York,1971,10431000000
+Northeast,New Jersey,1971,684000000
+Northeast,Pennsylvania,1971,7155000000
+Northeast,Delaware,1971,133000000
+Northeast,Maryland,1971,1564000000
+Lake States,Michigan,1971,4796000000
+Lake States,Wisconsin,1971,18848000000
+Lake States,Minnesota,1971,9618000000
+Corn Belt,Ohio,1971,4488000000
+Corn Belt,Indiana,1971,2430000000
+Corn Belt,Illinois,1971,2814000000
+Corn Belt,Iowa,1971,4577000000
+Corn Belt,Missouri,1971,2999000000
+Northern Plains,North Dakota,1971,1023000000
+Northern Plains,South Dakota,1971,1572000000
+Northern Plains,Nebraska,1971,1569000000
+Northern Plains,Kansas,1971,1688000000
+Appalachian,Virginia,1971,1751000000
+Appalachian,West Virginia,1971,363000000
+Appalachian,North Carolina,1971,1500000000
+Appalachian,Kentucky,1971,2480000000
+Appalachian,Tennessee,1971,2122000000
+Southeast,South Carolina,1971,516000000
+Southeast,Georgia,1971,1188000000
+Southeast,Florida,1971,1785000000
+Southeast,Alabama,1971,819000000
+Delta States,Mississippi,1971,1011000000
+Delta States,Arkansas,1971,698000000
+Delta States,Louisiana,1971,1129000000
+Southern Plains,Oklahoma,1971,1260000000
+Southern Plains,Texas,1971,3239000000
+Mountain,Montana,1971,334000000
+Mountain,Idaho,1971,1550000000
+Mountain,Wyoming,1971,135000000
+Mountain,Colorado,1971,885000000
+Mountain,New Mexico,1971,312000000
+Mountain,Arizona,1971,620000000
+Mountain,Utah,1971,840000000
+Mountain,Nevada,1971,141000000
+Pacific,Washington,1971,2230000000
+Pacific,Oregon,1971,1008000000
+Pacific,California,1971,9710000000
+Pacific,Alaska,1971,17000000
+Pacific,Hawaii,1971,133000000
+Northeast,Maine,1972,638000000
+Northeast,New Hampshire,1972,353000000
+Northeast,Vermont,1972,2039000000
+Northeast,Massachusetts,1972,629000000
+Northeast,Rhode Island,1972,69000000
+Northeast,Connecticut,1972,643000000
+Northeast,New York,1972,10306000000
+Northeast,New Jersey,1972,645000000
+Northeast,Pennsylvania,1972,7031000000
+Northeast,Delaware,1972,132000000
+Northeast,Maryland,1972,1536000000
+Lake States,Michigan,1972,4966000000
+Lake States,Wisconsin,1972,19226000000
+Lake States,Minnesota,1972,9580000000
+Corn Belt,Ohio,1972,4573000000
+Corn Belt,Indiana,1972,2454000000
+Corn Belt,Illinois,1972,2838000000
+Corn Belt,Iowa,1972,4400000000
+Corn Belt,Missouri,1972,3025000000
+Northern Plains,North Dakota,1972,994000000
+Northern Plains,South Dakota,1972,1591000000
+Northern Plains,Nebraska,1972,1610000000
+Northern Plains,Kansas,1972,1629000000
+Appalachian,Virginia,1972,1760000000
+Appalachian,West Virginia,1972,345000000
+Appalachian,North Carolina,1972,1537000000
+Appalachian,Kentucky,1972,2530000000
+Appalachian,Tennessee,1972,2217000000
+Southeast,South Carolina,1972,518000000
+Southeast,Georgia,1972,1235000000
+Southeast,Florida,1972,1867000000
+Southeast,Alabama,1972,820000000
+Delta States,Mississippi,1972,993000000
+Delta States,Arkansas,1972,728000000
+Delta States,Louisiana,1972,1132000000
+Southern Plains,Oklahoma,1972,1235000000
+Southern Plains,Texas,1972,3340000000
+Mountain,Montana,1972,334000000
+Mountain,Idaho,1972,1663000000
+Mountain,Wyoming,1972,135000000
+Mountain,Colorado,1972,880000000
+Mountain,New Mexico,1972,326000000
+Mountain,Arizona,1972,640000000
+Mountain,Utah,1972,874000000
+Mountain,Nevada,1972,143000000
+Pacific,Washington,1972,2307000000
+Pacific,Oregon,1972,1005000000
+Pacific,California,1972,10400000000
+Pacific,Alaska,1972,18000000
+Pacific,Hawaii,1972,136000000
+Northeast,Maine,1973,614000000
+Northeast,New Hampshire,1973,337000000
+Northeast,Vermont,1973,1948000000
+Northeast,Massachusetts,1973,595000000
+Northeast,Rhode Island,1973,64000000
+Northeast,Connecticut,1973,614000000
+Northeast,New York,1973,9728000000
+Northeast,New Jersey,1973,575000000
+Northeast,Pennsylvania,1973,6718000000
+Northeast,Delaware,1973,128000000
+Northeast,Maryland,1973,1464000000
+Lake States,Michigan,1973,4636000000
+Lake States,Wisconsin,1973,18442000000
+Lake States,Minnesota,1973,9271000000
+Corn Belt,Ohio,1973,4267000000
+Corn Belt,Indiana,1973,2329000000
+Corn Belt,Illinois,1973,2673000000
+Corn Belt,Iowa,1973,4180000000
+Corn Belt,Missouri,1973,2992000000
+Northern Plains,North Dakota,1973,1044000000
+Northern Plains,South Dakota,1973,1642000000
+Northern Plains,Nebraska,1973,1542000000
+Northern Plains,Kansas,1973,1505000000
+Appalachian,Virginia,1973,1690000000
+Appalachian,West Virginia,1973,333000000
+Appalachian,North Carolina,1973,1490000000
+Appalachian,Kentucky,1973,2330000000
+Appalachian,Tennessee,1973,2057000000
+Southeast,South Carolina,1973,497000000
+Southeast,Georgia,1973,1168000000
+Southeast,Florida,1973,1843000000
+Southeast,Alabama,1973,785000000
+Delta States,Mississippi,1973,950000000
+Delta States,Arkansas,1973,706000000
+Delta States,Louisiana,1973,1062000000
+Southern Plains,Oklahoma,1973,1140000000
+Southern Plains,Texas,1973,3280000000
+Mountain,Montana,1973,312000000
+Mountain,Idaho,1973,1657000000
+Mountain,Wyoming,1973,130000000
+Mountain,Colorado,1973,854000000
+Mountain,New Mexico,1973,318000000
+Mountain,Arizona,1973,737000000
+Mountain,Utah,1973,866000000
+Mountain,Nevada,1973,144000000
+Pacific,Washington,1973,2338000000
+Pacific,Oregon,1973,1008000000
+Pacific,California,1973,10332000000
+Pacific,Alaska,1973,18000000
+Pacific,Hawaii,1973,138000000
+Northeast,Maine,1974,611000000
+Northeast,New Hampshire,1974,329000000
+Northeast,Vermont,1974,1945000000
+Northeast,Massachusetts,1974,593000000
+Northeast,Rhode Island,1974,63000000
+Northeast,Connecticut,1974,613000000
+Northeast,New York,1974,9822000000
+Northeast,New Jersey,1974,551000000
+Northeast,Pennsylvania,1974,6980000000
+Northeast,Delaware,1974,128000000
+Northeast,Maryland,1974,1505000000
+Lake States,Michigan,1974,4350000000
+Lake States,Wisconsin,1974,18713000000
+Lake States,Minnesota,1974,9382000000
+Corn Belt,Ohio,1974,4221000000
+Corn Belt,Indiana,1974,2260000000
+Corn Belt,Illinois,1974,2522000000
+Corn Belt,Iowa,1974,4025000000
+Corn Belt,Missouri,1974,2989000000
+Northern Plains,North Dakota,1974,980000000
+Northern Plains,South Dakota,1974,1642000000
+Northern Plains,Nebraska,1974,1477000000
+Northern Plains,Kansas,1974,1403000000
+Appalachian,Virginia,1974,1705000000
+Appalachian,West Virginia,1974,350000000
+Appalachian,North Carolina,1974,1462000000
+Appalachian,Kentucky,1974,2370000000
+Appalachian,Tennessee,1974,1971000000
+Southeast,South Carolina,1974,515000000
+Southeast,Georgia,1974,1190000000
+Southeast,Florida,1974,1875000000
+Southeast,Alabama,1974,708000000
+Delta States,Mississippi,1974,907000000
+Delta States,Arkansas,1974,706000000
+Delta States,Louisiana,1974,1059000000
+Southern Plains,Oklahoma,1974,1137000000
+Southern Plains,Texas,1974,3380000000
+Mountain,Montana,1974,294000000
+Mountain,Idaho,1974,1555000000
+Mountain,Wyoming,1974,123000000
+Mountain,Colorado,1974,866000000
+Mountain,New Mexico,1974,338000000
+Mountain,Arizona,1974,810000000
+Mountain,Utah,1974,925000000
+Mountain,Nevada,1974,167000000
+Pacific,Washington,1974,2312000000
+Pacific,Oregon,1974,1004000000
+Pacific,California,1974,10596000000
+Pacific,Alaska,1974,18000000
+Pacific,Hawaii,1974,139000000
+Northeast,Maine,1975,629000000
+Northeast,New Hampshire,1975,336000000
+Northeast,Vermont,1975,2009000000
+Northeast,Massachusetts,1975,601000000
+Northeast,Rhode Island,1975,63000000
+Northeast,Connecticut,1975,608000000
+Northeast,New York,1975,9964000000
+Northeast,New Jersey,1975,528000000
+Northeast,Pennsylvania,1975,7140000000
+Northeast,Delaware,1975,127000000
+Northeast,Maryland,1975,1550000000
+Lake States,Michigan,1975,4411000000
+Lake States,Wisconsin,1975,18900000000
+Lake States,Minnesota,1975,8946000000
+Corn Belt,Ohio,1975,4259000000
+Corn Belt,Indiana,1975,2210000000
+Corn Belt,Illinois,1975,2446000000
+Corn Belt,Iowa,1975,3893000000
+Corn Belt,Missouri,1975,2840000000
+Northern Plains,North Dakota,1975,917000000
+Northern Plains,South Dakota,1975,1556000000
+Northern Plains,Nebraska,1975,1431000000
+Northern Plains,Kansas,1975,1392000000
+Appalachian,Virginia,1975,1755000000
+Appalachian,West Virginia,1975,350000000
+Appalachian,North Carolina,1975,1498000000
+Appalachian,Kentucky,1975,2319000000
+Appalachian,Tennessee,1975,2031000000
+Southeast,South Carolina,1975,512000000
+Southeast,Georgia,1975,1221000000
+Southeast,Florida,1975,1956000000
+Southeast,Alabama,1975,686000000
+Delta States,Mississippi,1975,876000000
+Delta States,Arkansas,1975,707000000
+Delta States,Louisiana,1975,1054000000
+Southern Plains,Oklahoma,1975,1060000000
+Southern Plains,Texas,1975,3208000000
+Mountain,Montana,1975,278000000
+Mountain,Idaho,1975,1555000000
+Mountain,Wyoming,1975,110000000
+Mountain,Colorado,1975,845000000
+Mountain,New Mexico,1975,366000000
+Mountain,Arizona,1975,840000000
+Mountain,Utah,1975,919000000
+Mountain,Nevada,1975,168000000
+Pacific,Washington,1975,2322000000
+Pacific,Oregon,1975,990000000
+Pacific,California,1975,10853000000
+Pacific,Alaska,1975,17000000
+Pacific,Hawaii,1975,146000000
+Northeast,Maine,1976,628000000
+Northeast,New Hampshire,1976,335000000
+Northeast,Vermont,1976,2093000000
+Northeast,Massachusetts,1976,598000000
+Northeast,Rhode Island,1976,60000000
+Northeast,Connecticut,1976,616000000
+Northeast,New York,1976,10198000000
+Northeast,New Jersey,1976,545000000
+Northeast,Pennsylvania,1976,7507000000
+Northeast,Delaware,1976,135000000
+Northeast,Maryland,1976,1549000000
+Lake States,Michigan,1976,4620000000
+Lake States,Wisconsin,1976,20296000000
+Lake States,Minnesota,1976,9239000000
+Corn Belt,Ohio,1976,4435000000
+Corn Belt,Indiana,1976,2240000000
+Corn Belt,Illinois,1976,2485000000
+Corn Belt,Iowa,1976,3954000000
+Corn Belt,Missouri,1976,2919000000
+Northern Plains,North Dakota,1976,948000000
+Northern Plains,South Dakota,1976,1650000000
+Northern Plains,Nebraska,1976,1409000000
+Northern Plains,Kansas,1976,1447000000
+Appalachian,Virginia,1976,1877000000
+Appalachian,West Virginia,1976,356000000
+Appalachian,North Carolina,1976,1580000000
+Appalachian,Kentucky,1976,2383000000
+Appalachian,Tennessee,1976,2096000000
+Southeast,South Carolina,1976,525000000
+Southeast,Georgia,1976,1303000000
+Southeast,Florida,1976,2023000000
+Southeast,Alabama,1976,682000000
+Delta States,Mississippi,1976,862000000
+Delta States,Arkansas,1976,710000000
+Delta States,Louisiana,1976,1088000000
+Southern Plains,Oklahoma,1976,1102000000
+Southern Plains,Texas,1976,3309000000
+Mountain,Montana,1976,275000000
+Mountain,Idaho,1976,1554000000
+Mountain,Wyoming,1976,113000000
+Mountain,Colorado,1976,835000000
+Mountain,New Mexico,1976,405000000
+Mountain,Arizona,1976,882000000
+Mountain,Utah,1976,924000000
+Mountain,Nevada,1976,191000000
+Pacific,Washington,1976,2428000000
+Pacific,Oregon,1976,1024000000
+Pacific,California,1976,11583000000
+Pacific,Alaska,1976,16000000
+Pacific,Hawaii,1976,148000000
+Northeast,Maine,1977,638000000
+Northeast,New Hampshire,1977,339000000
+Northeast,Vermont,1977,2100000000
+Northeast,Massachusetts,1977,597000000
+Northeast,Rhode Island,1977,57000000
+Northeast,Connecticut,1977,624000000
+Northeast,New York,1977,10224000000
+Northeast,New Jersey,1977,549000000
+Northeast,Pennsylvania,1977,7791000000
+Northeast,Delaware,1977,139000000
+Northeast,Maryland,1977,1575000000
+Lake States,Michigan,1977,4761000000
+Lake States,Wisconsin,1977,21041000000
+Lake States,Minnesota,1977,9483000000
+Corn Belt,Ohio,1977,4455000000
+Corn Belt,Indiana,1977,2248000000
+Corn Belt,Illinois,1977,2515000000
+Corn Belt,Iowa,1977,4030000000
+Corn Belt,Missouri,1977,2918000000
+Northern Plains,North Dakota,1977,954000000
+Northern Plains,South Dakota,1977,1652000000
+Northern Plains,Nebraska,1977,1344000000
+Northern Plains,Kansas,1977,1442000000
+Appalachian,Virginia,1977,1894000000
+Appalachian,West Virginia,1977,350000000
+Appalachian,North Carolina,1977,1583000000
+Appalachian,Kentucky,1977,2426000000
+Appalachian,Tennessee,1977,2181000000
+Southeast,South Carolina,1977,525000000
+Southeast,Georgia,1977,1301000000
+Southeast,Florida,1977,1993000000
+Southeast,Alabama,1977,684000000
+Delta States,Mississippi,1977,858000000
+Delta States,Arkansas,1977,725000000
+Delta States,Louisiana,1977,1089000000
+Southern Plains,Oklahoma,1977,1120000000
+Southern Plains,Texas,1977,3372000000
+Mountain,Montana,1977,296000000
+Mountain,Idaho,1977,1600000000
+Mountain,Wyoming,1977,124000000
+Mountain,Colorado,1977,848000000
+Mountain,New Mexico,1977,426000000
+Mountain,Arizona,1977,914000000
+Mountain,Utah,1977,936000000
+Mountain,Nevada,1977,198000000
+Pacific,Washington,1977,2549000000
+Pacific,Oregon,1977,1052000000
+Pacific,California,1977,11968000000
+Pacific,Alaska,1977,16000000
+Pacific,Hawaii,1977,150000000
+Northeast,Maine,1978,641000000
+Northeast,New Hampshire,1978,341000000
+Northeast,Vermont,1978,2136000000
+Northeast,Massachusetts,1978,572000000
+Northeast,Rhode Island,1978,55000000
+Northeast,Connecticut,1978,614000000
+Northeast,New York,1978,10408000000
+Northeast,New Jersey,1978,525000000
+Northeast,Pennsylvania,1978,7881000000
+Northeast,Delaware,1978,129000000
+Northeast,Maryland,1978,1540000000
+Lake States,Michigan,1978,4793000000
+Lake States,Wisconsin,1978,21252000000
+Lake States,Minnesota,1978,9089000000
+Corn Belt,Ohio,1978,4275000000
+Corn Belt,Indiana,1978,2178000000
+Corn Belt,Illinois,1978,2399000000
+Corn Belt,Iowa,1978,3960000000
+Corn Belt,Missouri,1978,2719000000
+Northern Plains,North Dakota,1978,903000000
+Northern Plains,South Dakota,1978,1540000000
+Northern Plains,Nebraska,1978,1269000000
+Northern Plains,Kansas,1978,1372000000
+Appalachian,Virginia,1978,1873000000
+Appalachian,West Virginia,1978,345000000
+Appalachian,North Carolina,1978,1544000000
+Appalachian,Kentucky,1978,2274000000
+Appalachian,Tennessee,1978,2073000000
+Southeast,South Carolina,1978,513000000
+Southeast,Georgia,1978,1308000000
+Southeast,Florida,1978,1972000000
+Southeast,Alabama,1978,631000000
+Delta States,Mississippi,1978,836000000
+Delta States,Arkansas,1978,729000000
+Delta States,Louisiana,1978,1063000000
+Southern Plains,Oklahoma,1978,1090000000
+Southern Plains,Texas,1978,3433000000
+Mountain,Montana,1978,306000000
+Mountain,Idaho,1978,1633000000
+Mountain,Wyoming,1978,120000000
+Mountain,Colorado,1978,872000000
+Mountain,New Mexico,1978,458000000
+Mountain,Arizona,1978,906000000
+Mountain,Utah,1978,940000000
+Mountain,Nevada,1978,187000000
+Pacific,Washington,1978,2675000000
+Pacific,Oregon,1978,1065000000
+Pacific,California,1978,11859000000
+Pacific,Alaska,1978,15000000
+Pacific,Hawaii,1978,150000000
+Northeast,Maine,1979,641000000
+Northeast,New Hampshire,1979,341000000
+Northeast,Vermont,1979,2179000000
+Northeast,Massachusetts,1979,566000000
+Northeast,Rhode Island,1979,50000000
+Northeast,Connecticut,1979,606000000
+Northeast,New York,1979,10630000000
+Northeast,New Jersey,1979,494000000
+Northeast,Pennsylvania,1979,8084000000
+Northeast,Delaware,1979,127000000
+Northeast,Maryland,1979,1520000000
+Lake States,Michigan,1979,4830000000
+Lake States,Wisconsin,1979,21850000000
+Lake States,Minnesota,1979,9145000000
+Corn Belt,Ohio,1979,4265000000
+Corn Belt,Indiana,1979,2175000000
+Corn Belt,Illinois,1979,2391000000
+Corn Belt,Iowa,1979,3858000000
+Corn Belt,Missouri,1979,2714000000
+Northern Plains,North Dakota,1979,874000000
+Northern Plains,South Dakota,1979,1549000000
+Northern Plains,Nebraska,1979,1260000000
+Northern Plains,Kansas,1979,1330000000
+Appalachian,Virginia,1979,1937000000
+Appalachian,West Virginia,1979,350000000
+Appalachian,North Carolina,1979,1565000000
+Appalachian,Kentucky,1979,2220000000
+Appalachian,Tennessee,1979,2091000000
+Southeast,South Carolina,1979,524000000
+Southeast,Georgia,1979,1338000000
+Southeast,Florida,1979,1996000000
+Southeast,Alabama,1979,606000000
+Delta States,Mississippi,1979,814000000
+Delta States,Arkansas,1979,727000000
+Delta States,Louisiana,1979,1022000000
+Southern Plains,Oklahoma,1979,1070000000
+Southern Plains,Texas,1979,3377000000
+Mountain,Montana,1979,297000000
+Mountain,Idaho,1979,1721000000
+Mountain,Wyoming,1979,119000000
+Mountain,Colorado,1979,857000000
+Mountain,New Mexico,1979,507000000
+Mountain,Arizona,1979,941000000
+Mountain,Utah,1979,948000000
+Mountain,Nevada,1979,199000000
+Pacific,Washington,1979,2817000000
+Pacific,Oregon,1979,1103000000
+Pacific,California,1979,12563000000
+Pacific,Alaska,1979,13000000
+Pacific,Hawaii,1979,150000000
+Northeast,Maine,1980,665000000
+Northeast,New Hampshire,1980,347000000
+Northeast,Vermont,1980,2289000000
+Northeast,Massachusetts,1980,570000000
+Northeast,Rhode Island,1980,47000000
+Northeast,Connecticut,1980,612000000
+Northeast,New York,1980,10974000000
+Northeast,New Jersey,1980,494000000
+Northeast,Pennsylvania,1980,8496000000
+Northeast,Delaware,1980,125000000
+Northeast,Maryland,1980,1520000000
+Lake States,Michigan,1980,4970000000
+Lake States,Wisconsin,1980,22380000000
+Lake States,Minnesota,1980,9535000000
+Corn Belt,Ohio,1980,4310000000
+Corn Belt,Indiana,1980,2210000000
+Corn Belt,Illinois,1980,2540000000
+Corn Belt,Iowa,1980,3994000000
+Corn Belt,Missouri,1980,2826000000
+Northern Plains,North Dakota,1980,939000000
+Northern Plains,South Dakota,1980,1669000000
+Northern Plains,Nebraska,1980,1315000000
+Northern Plains,Kansas,1980,1330000000
+Appalachian,Virginia,1980,1974000000
+Appalachian,West Virginia,1980,350000000
+Appalachian,North Carolina,1980,1631000000
+Appalachian,Kentucky,1980,2219000000
+Appalachian,Tennessee,1980,2241000000
+Southeast,South Carolina,1980,541000000
+Southeast,Georgia,1980,1367000000
+Southeast,Florida,1980,2028000000
+Southeast,Alabama,1980,610000000
+Delta States,Mississippi,1980,817000000
+Delta States,Arkansas,1980,740000000
+Delta States,Louisiana,1980,1012000000
+Southern Plains,Oklahoma,1980,1110000000
+Southern Plains,Texas,1980,3625000000
+Mountain,Montana,1980,314000000
+Mountain,Idaho,1980,1947000000
+Mountain,Wyoming,1980,132000000
+Mountain,Colorado,1980,858000000
+Mountain,New Mexico,1980,602000000
+Mountain,Arizona,1980,1031000000
+Mountain,Utah,1980,1028000000
+Mountain,Nevada,1980,219000000
+Pacific,Washington,1980,2942000000
+Pacific,Oregon,1980,1169000000
+Pacific,California,1980,13577000000
+Pacific,Alaska,1980,13000000
+Pacific,Hawaii,1980,152000000
+Northeast,Maine,1981,698000000
+Northeast,New Hampshire,1981,346000000
+Northeast,Vermont,1981,2298000000
+Northeast,Massachusetts,1981,578000000
+Northeast,Rhode Island,1981,46000000
+Northeast,Connecticut,1981,624000000
+Northeast,New York,1981,11069000000
+Northeast,New Jersey,1981,494000000
+Northeast,Pennsylvania,1981,8965000000
+Northeast,Delaware,1981,124000000
+Northeast,Maryland,1981,1556000000
+Lake States,Michigan,1981,5103000000
+Lake States,Wisconsin,1981,23000000000
+Lake States,Minnesota,1981,10061000000
+Corn Belt,Ohio,1981,4385000000
+Corn Belt,Indiana,1981,2282000000
+Corn Belt,Illinois,1981,2604000000
+Corn Belt,Iowa,1981,4056000000
+Corn Belt,Missouri,1981,2877000000
+Northern Plains,North Dakota,1981,995000000
+Northern Plains,South Dakota,1981,1757000000
+Northern Plains,Nebraska,1981,1400000000
+Northern Plains,Kansas,1981,1397000000
+Appalachian,Virginia,1981,2015000000
+Appalachian,West Virginia,1981,350000000
+Appalachian,North Carolina,1981,1654000000
+Appalachian,Kentucky,1981,2281000000
+Appalachian,Tennessee,1981,2300000000
+Southeast,South Carolina,1981,552000000
+Southeast,Georgia,1981,1396000000
+Southeast,Florida,1981,2082000000
+Southeast,Alabama,1981,620000000
+Delta States,Mississippi,1981,860000000
+Delta States,Arkansas,1981,792000000
+Delta States,Louisiana,1981,996000000
+Southern Plains,Oklahoma,1981,1150000000
+Southern Plains,Texas,1981,3665000000
+Mountain,Montana,1981,331000000
+Mountain,Idaho,1981,2162000000
+Mountain,Wyoming,1981,136000000
+Mountain,Colorado,1981,928000000
+Mountain,New Mexico,1981,671000000
+Mountain,Arizona,1981,1133000000
+Mountain,Utah,1981,1110000000
+Mountain,Nevada,1981,223000000
+Pacific,Washington,1981,3017000000
+Pacific,Oregon,1981,1220000000
+Pacific,California,1981,14248000000
+Pacific,Alaska,1981,13000000
+Pacific,Hawaii,1981,150000000
+Northeast,Maine,1982,727000000
+Northeast,New Hampshire,1982,365000000
+Northeast,Vermont,1982,2385000000
+Northeast,Massachusetts,1982,602000000
+Northeast,Rhode Island,1982,46000000
+Northeast,Connecticut,1982,644000000
+Northeast,New York,1982,11097000000
+Northeast,New Jersey,1982,492000000
+Northeast,Pennsylvania,1982,9264000000
+Northeast,Delaware,1982,137000000
+Northeast,Maryland,1982,1581000000
+Lake States,Michigan,1982,5253000000
+Lake States,Wisconsin,1982,23230000000
+Lake States,Minnesota,1982,10341000000
+Corn Belt,Ohio,1982,4550000000
+Corn Belt,Indiana,1982,2334000000
+Corn Belt,Illinois,1982,2657000000
+Corn Belt,Iowa,1982,4004000000
+Corn Belt,Missouri,1982,2905000000
+Northern Plains,North Dakota,1982,1020000000
+Northern Plains,South Dakota,1982,1762000000
+Northern Plains,Nebraska,1982,1340000000
+Northern Plains,Kansas,1982,1356000000
+Appalachian,Virginia,1982,2059000000
+Appalachian,West Virginia,1982,349000000
+Appalachian,North Carolina,1982,1686000000
+Appalachian,Kentucky,1982,2364000000
+Appalachian,Tennessee,1982,2326000000
+Southeast,South Carolina,1982,567000000
+Southeast,Georgia,1982,1412000000
+Southeast,Florida,1982,2109000000
+Southeast,Alabama,1982,580000000
+Delta States,Mississippi,1982,900000000
+Delta States,Arkansas,1982,828000000
+Delta States,Louisiana,1982,975000000
+Southern Plains,Oklahoma,1982,1165000000
+Southern Plains,Texas,1982,3780000000
+Mountain,Montana,1982,341000000
+Mountain,Idaho,1982,2253000000
+Mountain,Wyoming,1982,137000000
+Mountain,Colorado,1982,972000000
+Mountain,New Mexico,1982,812000000
+Mountain,Arizona,1982,1202000000
+Mountain,Utah,1982,1162000000
+Mountain,Nevada,1982,225000000
+Pacific,Washington,1982,3222000000
+Pacific,Oregon,1982,1301000000
+Pacific,California,1982,14528000000
+Pacific,Alaska,1982,14000000
+Pacific,Hawaii,1982,144000000
+Northeast,Maine,1983,736000000
+Northeast,New Hampshire,1983,379000000
+Northeast,Vermont,1983,2490000000
+Northeast,Massachusetts,1983,613000000
+Northeast,Rhode Island,1983,45000000
+Northeast,Connecticut,1983,655000000
+Northeast,New York,1983,11648000000
+Northeast,New Jersey,1983,500000000
+Northeast,Pennsylvania,1983,9510000000
+Northeast,Delaware,1983,137000000
+Northeast,Maryland,1983,1606000000
+Lake States,Michigan,1983,5528000000
+Lake States,Wisconsin,1983,23800000000
+Lake States,Minnesota,1983,10913000000
+Corn Belt,Ohio,1983,4755000000
+Corn Belt,Indiana,1983,2364000000
+Corn Belt,Illinois,1983,2706000000
+Corn Belt,Iowa,1983,4036000000
+Corn Belt,Missouri,1983,3100000000
+Northern Plains,North Dakota,1983,1090000000
+Northern Plains,South Dakota,1983,1771000000
+Northern Plains,Nebraska,1983,1415000000
+Northern Plains,Kansas,1983,1382000000
+Appalachian,Virginia,1983,2070000000
+Appalachian,West Virginia,1983,365000000
+Appalachian,North Carolina,1983,1711000000
+Appalachian,Kentucky,1983,2414000000
+Appalachian,Tennessee,1983,2250000000
+Southeast,South Carolina,1983,573000000
+Southeast,Georgia,1983,1395000000
+Southeast,Florida,1983,2113000000
+Southeast,Alabama,1983,573000000
+Delta States,Mississippi,1983,883000000
+Delta States,Arkansas,1983,845000000
+Delta States,Louisiana,1983,954000000
+Southern Plains,Oklahoma,1983,1183000000
+Southern Plains,Texas,1983,3985000000
+Mountain,Montana,1983,355000000
+Mountain,Idaho,1983,2303000000
+Mountain,Wyoming,1983,136000000
+Mountain,Colorado,1983,987000000
+Mountain,New Mexico,1983,938000000
+Mountain,Arizona,1983,1237000000
+Mountain,Utah,1983,1171000000
+Mountain,Nevada,1983,227000000
+Pacific,Washington,1983,3482000000
+Pacific,Oregon,1983,1363000000
+Pacific,California,1983,14733000000
+Pacific,Alaska,1983,14000000
+Pacific,Hawaii,1983,149000000
+Northeast,Maine,1984,694000000
+Northeast,New Hampshire,1984,361000000
+Northeast,Vermont,1984,2311000000
+Northeast,Massachusetts,1984,573000000
+Northeast,Rhode Island,1984,44000000
+Northeast,Connecticut,1984,611000000
+Northeast,New York,1984,11443000000
+Northeast,New Jersey,1984,474000000
+Northeast,Pennsylvania,1984,9423000000
+Northeast,Delaware,1984,132000000
+Northeast,Maryland,1984,1530000000
+Lake States,Michigan,1984,5350000000
+Lake States,Wisconsin,1984,23501000000
+Lake States,Minnesota,1984,10331000000
+Corn Belt,Ohio,1984,4650000000
+Corn Belt,Indiana,1984,2279000000
+Corn Belt,Illinois,1984,2560000000
+Corn Belt,Iowa,1984,3805000000
+Corn Belt,Missouri,1984,2754000000
+Northern Plains,North Dakota,1984,1055000000
+Northern Plains,South Dakota,1984,1622000000
+Northern Plains,Nebraska,1984,1225000000
+Northern Plains,Kansas,1984,1225000000
+Appalachian,Virginia,1984,1967000000
+Appalachian,West Virginia,1984,369000000
+Appalachian,North Carolina,1984,1649000000
+Appalachian,Kentucky,1984,2106000000
+Appalachian,Tennessee,1984,2152000000
+Southeast,South Carolina,1984,541000000
+Southeast,Georgia,1984,1274000000
+Southeast,Florida,1984,1898000000
+Southeast,Alabama,1984,536000000
+Delta States,Mississippi,1984,847000000
+Delta States,Arkansas,1984,808000000
+Delta States,Louisiana,1984,893000000
+Southern Plains,Oklahoma,1984,1130000000
+Southern Plains,Texas,1984,3848000000
+Mountain,Montana,1984,341000000
+Mountain,Idaho,1984,2190000000
+Mountain,Wyoming,1984,132000000
+Mountain,Colorado,1984,956000000
+Mountain,New Mexico,1984,1006000000
+Mountain,Arizona,1984,1222000000
+Mountain,Utah,1984,1039000000
+Mountain,Nevada,1984,235000000
+Pacific,Washington,1984,3468000000
+Pacific,Oregon,1984,1338000000
+Pacific,California,1984,15292000000
+Pacific,Alaska,1984,14000000
+Pacific,Hawaii,1984,148000000
+Northeast,Maine,1985,673000000
+Northeast,New Hampshire,1985,364000000
+Northeast,Vermont,1985,2410000000
+Northeast,Massachusetts,1985,596000000
+Northeast,Rhode Island,1985,44000000
+Northeast,Connecticut,1985,620000000
+Northeast,New York,1985,11732000000
+Northeast,New Jersey,1985,487000000
+Northeast,Pennsylvania,1985,9983000000
+Northeast,Delaware,1985,147000000
+Northeast,Maryland,1985,1625000000
+Lake States,Michigan,1985,5568000000
+Lake States,Wisconsin,1985,24700000000
+Lake States,Minnesota,1985,10835000000
+Corn Belt,Ohio,1985,4870000000
+Corn Belt,Indiana,1985,2358000000
+Corn Belt,Illinois,1985,2721000000
+Corn Belt,Iowa,1985,4058000000
+Corn Belt,Missouri,1985,2870000000
+Northern Plains,North Dakota,1985,1120000000
+Northern Plains,South Dakota,1985,1744000000
+Northern Plains,Nebraska,1985,1340000000
+Northern Plains,Kansas,1985,1285000000
+Appalachian,Virginia,1985,2102000000
+Appalachian,West Virginia,1985,382000000
+Appalachian,North Carolina,1985,1748000000
+Appalachian,Kentucky,1985,2222000000
+Appalachian,Tennessee,1985,2235000000
+Southeast,South Carolina,1985,576000000
+Southeast,Georgia,1985,1300000000
+Southeast,Florida,1985,2038000000
+Southeast,Alabama,1985,547000000
+Delta States,Mississippi,1985,876000000
+Delta States,Arkansas,1985,848000000
+Delta States,Louisiana,1985,911000000
+Southern Plains,Oklahoma,1985,1183000000
+Southern Plains,Texas,1985,3968000000
+Mountain,Montana,1985,349000000
+Mountain,Idaho,1985,2421000000
+Mountain,Wyoming,1985,134000000
+Mountain,Colorado,1985,1105000000
+Mountain,New Mexico,1985,1078000000
+Mountain,Arizona,1985,1348000000
+Mountain,Utah,1985,1135000000
+Mountain,Nevada,1985,242000000
+Pacific,Washington,1985,3750000000
+Pacific,Oregon,1985,1438000000
+Pacific,California,1985,16762000000
+Pacific,Alaska,1985,22000000
+Pacific,Hawaii,1985,142000000
+Northeast,Maine,1986,694000000
+Northeast,New Hampshire,1986,373000000
+Northeast,Vermont,1986,2448000000
+Northeast,Massachusetts,1986,559000000
+Northeast,Rhode Island,1986,41000000
+Northeast,Connecticut,1986,600000000
+Northeast,New York,1986,11718000000
+Northeast,New Jersey,1986,479000000
+Northeast,Pennsylvania,1986,10152000000
+Northeast,Delaware,1986,146000000
+Northeast,Maryland,1986,1620000000
+Lake States,Michigan,1986,5404000000
+Lake States,Wisconsin,1986,24500000000
+Lake States,Minnesota,1986,10614000000
+Corn Belt,Ohio,1986,4940000000
+Corn Belt,Indiana,1986,2348000000
+Corn Belt,Illinois,1986,2741000000
+Corn Belt,Iowa,1986,3879000000
+Corn Belt,Missouri,1986,2930000000
+Northern Plains,North Dakota,1986,1074000000
+Northern Plains,South Dakota,1986,1685000000
+Northern Plains,Nebraska,1986,1350000000
+Northern Plains,Kansas,1986,1301000000
+Appalachian,Virginia,1986,2151000000
+Appalachian,West Virginia,1986,375000000
+Appalachian,North Carolina,1986,1695000000
+Appalachian,Kentucky,1986,2327000000
+Appalachian,Tennessee,1986,2221000000
+Southeast,South Carolina,1986,535000000
+Southeast,Georgia,1986,1265000000
+Southeast,Florida,1986,2157000000
+Southeast,Alabama,1986,529000000
+Delta States,Mississippi,1986,841000000
+Delta States,Arkansas,1986,755000000
+Delta States,Louisiana,1986,887000000
+Southern Plains,Oklahoma,1986,1190000000
+Southern Plains,Texas,1986,4045000000
+Mountain,Montana,1986,338000000
+Mountain,Idaho,1986,2389000000
+Mountain,Wyoming,1986,131000000
+Mountain,Colorado,1986,1188000000
+Mountain,New Mexico,1986,1092000000
+Mountain,Arizona,1986,1368000000
+Mountain,Utah,1986,1157000000
+Mountain,Nevada,1986,250000000
+Pacific,Washington,1986,3762000000
+Pacific,Oregon,1986,1471000000
+Pacific,California,1986,17222000000
+Pacific,Alaska,1986,32000000
+Pacific,Hawaii,1986,156000000
+Northeast,Maine,1987,670000000
+Northeast,New Hampshire,1987,323000000
+Northeast,Vermont,1987,2410000000
+Northeast,Massachusetts,1987,506000000
+Northeast,Rhode Island,1987,40000000
+Northeast,Connecticut,1987,567000000
+Northeast,New York,1987,11439000000
+Northeast,New Jersey,1987,436000000
+Northeast,Pennsylvania,1987,10183000000
+Northeast,Delaware,1987,139000000
+Northeast,Maryland,1987,1508000000
+Lake States,Michigan,1987,5248000000
+Lake States,Wisconsin,1987,24800000000
+Lake States,Minnesota,1987,10420000000
+Corn Belt,Ohio,1987,4840000000
+Corn Belt,Indiana,1987,2287000000
+Corn Belt,Illinois,1987,2775000000
+Corn Belt,Iowa,1987,3910000000
+Corn Belt,Missouri,1987,2940000000
+Northern Plains,North Dakota,1987,1087000000
+Northern Plains,South Dakota,1987,1718000000
+Northern Plains,Nebraska,1987,1340000000
+Northern Plains,Kansas,1987,1261000000
+Appalachian,Virginia,1987,2019000000
+Appalachian,West Virginia,1987,349000000
+Appalachian,North Carolina,1987,1555000000
+Appalachian,Kentucky,1987,2338000000
+Appalachian,Tennessee,1987,2207000000
+Southeast,South Carolina,1987,487000000
+Southeast,Georgia,1987,1160000000
+Southeast,Florida,1987,2209000000
+Southeast,Alabama,1987,502000000
+Delta States,Mississippi,1987,786000000
+Delta States,Arkansas,1987,748000000
+Delta States,Louisiana,1987,881000000
+Southern Plains,Oklahoma,1987,1170000000
+Southern Plains,Texas,1987,4277000000
+Mountain,Montana,1987,339000000
+Mountain,Idaho,1987,2375000000
+Mountain,Wyoming,1987,120000000
+Mountain,Colorado,1987,1192000000
+Mountain,New Mexico,1987,979000000
+Mountain,Arizona,1987,1432000000
+Mountain,Utah,1987,1121000000
+Mountain,Nevada,1987,263000000
+Pacific,Washington,1987,3763000000
+Pacific,Oregon,1987,1471000000
+Pacific,California,1987,17928000000
+Pacific,Alaska,1987,35000000
+Pacific,Hawaii,1987,156000000
+Northeast,Maine,1988,644000000
+Northeast,New Hampshire,1988,304000000
+Northeast,Vermont,1988,2389000000
+Northeast,Massachusetts,1988,461000000
+Northeast,Rhode Island,1988,39000000
+Northeast,Connecticut,1988,541000000
+Northeast,New York,1988,11444000000
+Northeast,New Jersey,1988,396000000
+Northeast,Pennsylvania,1988,10204000000
+Northeast,Delaware,1988,135000000
+Northeast,Maryland,1988,1443000000
+Lake States,Michigan,1988,5228000000
+Lake States,Wisconsin,1988,25000000000
+Lake States,Minnesota,1988,10413000000
+Corn Belt,Ohio,1988,4785000000
+Corn Belt,Indiana,1988,2234000000
+Corn Belt,Illinois,1988,2763000000
+Corn Belt,Iowa,1988,4040000000
+Corn Belt,Missouri,1988,3000000000
+Northern Plains,North Dakota,1988,1062000000
+Northern Plains,South Dakota,1988,1747000000
+Northern Plains,Nebraska,1988,1364000000
+Northern Plains,Kansas,1988,1269000000
+Appalachian,Virginia,1988,2013000000
+Appalachian,West Virginia,1988,301000000
+Appalachian,North Carolina,1988,1555000000
+Appalachian,Kentucky,1988,2327000000
+Appalachian,Tennessee,1988,2137000000
+Southeast,South Carolina,1988,477000000
+Southeast,Georgia,1988,1235000000
+Southeast,Florida,1988,2350000000
+Southeast,Alabama,1988,524000000
+Delta States,Mississippi,1988,794000000
+Delta States,Arkansas,1988,789000000
+Delta States,Louisiana,1988,930000000
+Southern Plains,Oklahoma,1988,1180000000
+Southern Plains,Texas,1988,4874000000
+Mountain,Montana,1988,352000000
+Mountain,Idaho,1988,2628000000
+Mountain,Wyoming,1988,125000000
+Mountain,Colorado,1988,1227000000
+Mountain,New Mexico,1988,1099000000
+Mountain,Arizona,1988,1500000000
+Mountain,Utah,1988,1167000000
+Mountain,Nevada,1988,278000000
+Pacific,Washington,1988,3966000000
+Pacific,Oregon,1988,1503000000
+Pacific,California,1988,18607000000
+Pacific,Alaska,1988,31000000
+Pacific,Hawaii,1988,160000000
+Northeast,Maine,1989,609000000
+Northeast,New Hampshire,1989,292000000
+Northeast,Vermont,1989,2337000000
+Northeast,Massachusetts,1989,448000000
+Northeast,Rhode Island,1989,34000000
+Northeast,Connecticut,1989,524000000
+Northeast,New York,1989,11071000000
+Northeast,New Jersey,1989,364000000
+Northeast,Pennsylvania,1989,9998000000
+Northeast,Delaware,1989,128000000
+Northeast,Maryland,1989,1377000000
+Lake States,Michigan,1989,5152000000
+Lake States,Wisconsin,1989,23898000000
+Lake States,Minnesota,1989,10109000000
+Corn Belt,Ohio,1989,4535000000
+Corn Belt,Indiana,1989,2229000000
+Corn Belt,Illinois,1989,2650000000
+Corn Belt,Iowa,1989,4202000000
+Corn Belt,Missouri,1989,2975000000
+Northern Plains,North Dakota,1989,1030000000
+Northern Plains,South Dakota,1989,1724000000
+Northern Plains,Nebraska,1989,1360000000
+Northern Plains,Kansas,1989,1256000000
+Appalachian,Virginia,1989,1991000000
+Appalachian,West Virginia,1989,279000000
+Appalachian,North Carolina,1989,1531000000
+Appalachian,Kentucky,1989,2265000000
+Appalachian,Tennessee,1989,2040000000
+Southeast,South Carolina,1989,462000000
+Southeast,Georgia,1989,1303000000
+Southeast,Florida,1989,2447000000
+Southeast,Alabama,1989,527000000
+Delta States,Mississippi,1989,767000000
+Delta States,Arkansas,1989,794000000
+Delta States,Louisiana,1989,950000000
+Southern Plains,Oklahoma,1989,1232000000
+Southern Plains,Texas,1989,5170000000
+Mountain,Montana,1989,327000000
+Mountain,Idaho,1989,2669000000
+Mountain,Wyoming,1989,124000000
+Mountain,Colorado,1989,1277000000
+Mountain,New Mexico,1989,1243000000
+Mountain,Arizona,1989,1525000000
+Mountain,Utah,1989,1170000000
+Mountain,Nevada,1989,295000000
+Pacific,Washington,1989,4097000000
+Pacific,Oregon,1989,1509000000
+Pacific,California,1989,19420000000
+Pacific,Alaska,1989,23000000
+Pacific,Hawaii,1989,154000000
+Northeast,Maine,1990,614000000
+Northeast,New Hampshire,1990,302000000
+Northeast,Vermont,1990,2368000000
+Northeast,Massachusetts,1990,461000000
+Northeast,Rhode Island,1990,34000000
+Northeast,Connecticut,1990,515000000
+Northeast,New York,1990,11067000000
+Northeast,New Jersey,1990,352000000
+Northeast,Pennsylvania,1990,10014000000
+Northeast,Delaware,1990,123000000
+Northeast,Maryland,1990,1373000000
+Lake States,Michigan,1990,5234000000
+Lake States,Wisconsin,1990,24187000000
+Lake States,Minnesota,1990,10030000000
+Corn Belt,Ohio,1990,4667000000
+Corn Belt,Indiana,1990,2276000000
+Corn Belt,Illinois,1990,2559000000
+Corn Belt,Iowa,1990,4233000000
+Corn Belt,Missouri,1990,3040000000
+Northern Plains,North Dakota,1990,1073000000
+Northern Plains,South Dakota,1990,1716000000
+Northern Plains,Nebraska,1990,1345000000
+Northern Plains,Kansas,1990,1245000000
+Appalachian,Virginia,1990,2004000000
+Appalachian,West Virginia,1990,270000000
+Appalachian,North Carolina,1990,1522000000
+Appalachian,Kentucky,1990,2255000000
+Appalachian,Tennessee,1990,2022000000
+Southeast,South Carolina,1990,447000000
+Southeast,Georgia,1990,1440000000
+Southeast,Florida,1990,2526000000
+Southeast,Alabama,1990,513000000
+Delta States,Mississippi,1990,749000000
+Delta States,Arkansas,1990,817000000
+Delta States,Louisiana,1990,940000000
+Southern Plains,Oklahoma,1990,1245000000
+Southern Plains,Texas,1990,5539000000
+Mountain,Montana,1990,325000000
+Mountain,Idaho,1990,2949000000
+Mountain,Wyoming,1990,125000000
+Mountain,Colorado,1990,1323000000
+Mountain,New Mexico,1990,1524000000
+Mountain,Arizona,1990,1645000000
+Mountain,Utah,1990,1267000000
+Mountain,Nevada,1990,328000000
+Pacific,Washington,1990,4392000000
+Pacific,Oregon,1990,1611000000
+Pacific,California,1990,20947000000
+Pacific,Alaska,1990,17000000
+Pacific,Hawaii,1990,151000000
+Northeast,Maine,1991,621000000
+Northeast,New Hampshire,1991,318000000
+Northeast,Vermont,1991,2408000000
+Northeast,Massachusetts,1991,465000000
+Northeast,Rhode Island,1991,34000000
+Northeast,Connecticut,1991,523000000
+Northeast,New York,1991,11179000000
+Northeast,New Jersey,1991,354000000
+Northeast,Pennsylvania,1991,10058000000
+Northeast,Delaware,1991,130000000
+Northeast,Maryland,1991,1419000000
+Lake States,Michigan,1991,5256000000
+Lake States,Wisconsin,1991,23770000000
+Lake States,Minnesota,1991,9775000000
+Corn Belt,Ohio,1991,4695000000
+Corn Belt,Indiana,1991,2285000000
+Corn Belt,Illinois,1991,2554000000
+Corn Belt,Iowa,1991,4151000000
+Corn Belt,Missouri,1991,2865000000
+Northern Plains,North Dakota,1991,1035000000
+Northern Plains,South Dakota,1991,1674000000
+Northern Plains,Nebraska,1991,1280000000
+Northern Plains,Kansas,1991,1230000000
+Appalachian,Virginia,1991,2046000000
+Appalachian,West Virginia,1991,270000000
+Appalachian,North Carolina,1991,1527000000
+Appalachian,Kentucky,1991,2190000000
+Appalachian,Tennessee,1991,1993000000
+Southeast,South Carolina,1991,405000000
+Southeast,Georgia,1991,1447000000
+Southeast,Florida,1991,2508000000
+Southeast,Alabama,1991,521000000
+Delta States,Mississippi,1991,738000000
+Delta States,Arkansas,1991,783000000
+Delta States,Louisiana,1991,934000000
+Southern Plains,Oklahoma,1991,1223000000
+Southern Plains,Texas,1991,5418000000
+Mountain,Montana,1991,330000000
+Mountain,Idaho,1991,2919000000
+Mountain,Wyoming,1991,109000000
+Mountain,Colorado,1991,1335000000
+Mountain,New Mexico,1991,1917000000
+Mountain,Arizona,1991,1713000000
+Mountain,Utah,1991,1262000000
+Mountain,Nevada,1991,350000000
+Pacific,Washington,1991,4459000000
+Pacific,Oregon,1991,1659000000
+Pacific,California,1991,21407000000
+Pacific,Alaska,1991,13000000
+Pacific,Hawaii,1991,141000000
+Northeast,Maine,1992,642000000
+Northeast,New Hampshire,1992,332000000
+Northeast,Vermont,1992,2510000000
+Northeast,Massachusetts,1992,479000000
+Northeast,Rhode Island,1992,33000000
+Northeast,Connecticut,1992,541000000
+Northeast,New York,1992,11557000000
+Northeast,New Jersey,1992,357000000
+Northeast,Pennsylvania,1992,10368000000
+Northeast,Delaware,1992,138000000
+Northeast,Maryland,1992,1444000000
+Lake States,Michigan,1992,5435000000
+Lake States,Wisconsin,1992,23844000000
+Lake States,Minnesota,1992,9858000000
+Corn Belt,Ohio,1992,4695000000
+Corn Belt,Indiana,1992,2289000000
+Corn Belt,Illinois,1992,2525000000
+Corn Belt,Iowa,1992,4006000000
+Corn Belt,Missouri,1992,2971000000
+Northern Plains,North Dakota,1992,989000000
+Northern Plains,South Dakota,1992,1660000000
+Northern Plains,Nebraska,1992,1230000000
+Northern Plains,Kansas,1992,1220000000
+Appalachian,Virginia,1992,2049000000
+Appalachian,West Virginia,1992,278000000
+Appalachian,North Carolina,1992,1535000000
+Appalachian,Kentucky,1992,2150000000
+Appalachian,Tennessee,1992,1968000000
+Southeast,South Carolina,1992,416000000
+Southeast,Georgia,1992,1518000000
+Southeast,Florida,1992,2579000000
+Southeast,Alabama,1992,503000000
+Delta States,Mississippi,1992,756000000
+Delta States,Arkansas,1992,787000000
+Delta States,Louisiana,1992,960000000
+Southern Plains,Oklahoma,1992,1231000000
+Southern Plains,Texas,1992,5590000000
+Mountain,Montana,1992,327000000
+Mountain,Idaho,1992,3138000000
+Mountain,Wyoming,1992,104000000
+Mountain,Colorado,1992,1416000000
+Mountain,New Mexico,1992,2174000000
+Mountain,Arizona,1992,1787000000
+Mountain,Utah,1992,1345000000
+Mountain,Nevada,1992,353000000
+Pacific,Washington,1992,4836000000
+Pacific,Oregon,1992,1712000000
+Pacific,California,1992,22092000000
+Pacific,Alaska,1992,12000000
+Pacific,Hawaii,1992,145000000
+Northeast,Maine,1993,663000000
+Northeast,New Hampshire,1993,325000000
+Northeast,Vermont,1993,2504000000
+Northeast,Massachusetts,1993,478000000
+Northeast,Rhode Island,1993,32000000
+Northeast,Connecticut,1993,543000000
+Northeast,New York,1993,11415000000
+Northeast,New Jersey,1993,363000000
+Northeast,Pennsylvania,1993,10181000000
+Northeast,Delaware,1993,147000000
+Northeast,Maryland,1993,1400000000
+Lake States,Michigan,1993,5435000000
+Lake States,Wisconsin,1993,22844000000
+Lake States,Minnesota,1993,9693000000
+Corn Belt,Ohio,1993,4620000000
+Corn Belt,Indiana,1993,2255000000
+Corn Belt,Illinois,1993,2514000000
+Corn Belt,Iowa,1993,4054000000
+Corn Belt,Missouri,1993,2840000000
+Northern Plains,North Dakota,1993,918000000
+Northern Plains,South Dakota,1993,1619000000
+Northern Plains,Nebraska,1993,1125000000
+Northern Plains,Kansas,1993,1080000000
+Appalachian,Virginia,1993,1995000000
+Appalachian,West Virginia,1993,275000000
+Appalachian,North Carolina,1993,1498000000
+Appalachian,Kentucky,1993,2120000000
+Appalachian,Tennessee,1993,1897000000
+Southeast,South Carolina,1993,418000000
+Southeast,Georgia,1993,1535000000
+Southeast,Florida,1993,2558000000
+Southeast,Alabama,1993,515000000
+Delta States,Mississippi,1993,745000000
+Delta States,Arkansas,1993,769000000
+Delta States,Louisiana,1993,935000000
+Southern Plains,Oklahoma,1993,1257000000
+Southern Plains,Texas,1993,5910000000
+Mountain,Montana,1993,307000000
+Mountain,Idaho,1993,3229000000
+Mountain,Wyoming,1993,100000000
+Mountain,Colorado,1993,1454000000
+Mountain,New Mexico,1993,2766000000
+Mountain,Arizona,1993,1876000000
+Mountain,Utah,1993,1332000000
+Mountain,Nevada,1993,348000000
+Pacific,Washington,1993,4980000000
+Pacific,Oregon,1993,1692000000
+Pacific,California,1993,22924000000
+Pacific,Alaska,1993,12000000
+Pacific,Hawaii,1993,142000000
+Northeast,Maine,1994,639000000
+Northeast,New Hampshire,1994,313000000
+Northeast,Vermont,1994,2457000000
+Northeast,Massachusetts,1994,455000000
+Northeast,Rhode Island,1994,32000000
+Northeast,Connecticut,1994,530000000
+Northeast,New York,1994,11400000000
+Northeast,New Jersey,1994,330000000
+Northeast,Pennsylvania,1994,10230000000
+Northeast,Delaware,1994,143000000
+Northeast,Maryland,1994,1335000000
+Lake States,Michigan,1994,5545000000
+Lake States,Wisconsin,1994,22412000000
+Lake States,Minnesota,1994,9342000000
+Corn Belt,Ohio,1994,4513000000
+Corn Belt,Indiana,1994,2257000000
+Corn Belt,Illinois,1994,2452000000
+Corn Belt,Iowa,1994,3960000000
+Corn Belt,Missouri,1994,2715000000
+Northern Plains,North Dakota,1994,869000000
+Northern Plains,South Dakota,1994,1589000000
+Northern Plains,Nebraska,1994,1110000000
+Northern Plains,Kansas,1994,1125000000
+Appalachian,Virginia,1994,1924000000
+Appalachian,West Virginia,1994,272000000
+Appalachian,North Carolina,1994,1473000000
+Appalachian,Kentucky,1994,2007000000
+Appalachian,Tennessee,1994,1812000000
+Southeast,South Carolina,1994,411000000
+Southeast,Georgia,1994,1595000000
+Southeast,Florida,1994,2623000000
+Southeast,Alabama,1994,500000000
+Delta States,Mississippi,1994,731000000
+Delta States,Arkansas,1994,753000000
+Delta States,Louisiana,1994,925000000
+Southern Plains,Oklahoma,1994,1287000000
+Southern Plains,Texas,1994,6225000000
+Mountain,Montana,1994,307000000
+Mountain,Idaho,1994,3754000000
+Mountain,Wyoming,1994,91000000
+Mountain,Colorado,1994,1553000000
+Mountain,New Mexico,1994,3325000000
+Mountain,Arizona,1994,2134000000
+Mountain,Utah,1994,1431000000
+Mountain,Nevada,1994,413000000
+Pacific,Washington,1994,5203000000
+Pacific,Oregon,1994,1714000000
+Pacific,California,1994,25234000000
+Pacific,Alaska,1994,13000000
+Pacific,Hawaii,1994,139000000
+Northeast,Maine,1995,641000000
+Northeast,New Hampshire,1995,326000000
+Northeast,Vermont,1995,2545000000
+Northeast,Massachusetts,1995,448000000
+Northeast,Rhode Island,1995,33000000
+Northeast,Connecticut,1995,526000000
+Northeast,New York,1995,11600000000
+Northeast,New Jersey,1995,320000000
+Northeast,Pennsylvania,1995,10489000000
+Northeast,Delaware,1995,145000000
+Northeast,Maryland,1995,1340000000
+Lake States,Michigan,1995,5565000000
+Lake States,Wisconsin,1995,22942000000
+Lake States,Minnesota,1995,9409000000
+Corn Belt,Ohio,1995,4600000000
+Corn Belt,Indiana,1995,2214000000
+Corn Belt,Illinois,1995,2399000000
+Corn Belt,Iowa,1995,4047000000
+Corn Belt,Missouri,1995,2690000000
+Northern Plains,North Dakota,1995,838000000
+Northern Plains,South Dakota,1995,1581000000
+Northern Plains,Nebraska,1995,1095000000
+Northern Plains,Kansas,1995,1180000000
+Appalachian,Virginia,1995,1950000000
+Appalachian,West Virginia,1995,266000000
+Appalachian,North Carolina,1995,1403000000
+Appalachian,Kentucky,1995,2020000000
+Appalachian,Tennessee,1995,1745000000
+Southeast,South Carolina,1995,391000000
+Southeast,Georgia,1995,1555000000
+Southeast,Florida,1995,2381000000
+Southeast,Alabama,1995,482000000
+Delta States,Mississippi,1995,710000000
+Delta States,Arkansas,1995,729000000
+Delta States,Louisiana,1995,905000000
+Southern Plains,Oklahoma,1995,1293000000
+Southern Plains,Texas,1995,6113000000
+Mountain,Montana,1995,315000000
+Mountain,Idaho,1995,4210000000
+Mountain,Wyoming,1995,87000000
+Mountain,Colorado,1995,1551000000
+Mountain,New Mexico,1995,3623000000
+Mountain,Arizona,1995,2230000000
+Mountain,Utah,1995,1473000000
+Mountain,Nevada,1995,426000000
+Pacific,Washington,1995,5304000000
+Pacific,Oregon,1995,1677000000
+Pacific,California,1995,25327000000
+Pacific,Alaska,1995,12000000
+Pacific,Hawaii,1995,142000000
+Northeast,Maine,1996,648000000
+Northeast,New Hampshire,1996,324000000
+Northeast,Vermont,1996,2569000000
+Northeast,Massachusetts,1996,440000000
+Northeast,Rhode Island,1996,31000000
+Northeast,Connecticut,1996,499000000
+Northeast,New York,1996,11510000000
+Northeast,New Jersey,1996,297000000
+Northeast,Pennsylvania,1996,10484000000
+Northeast,Delaware,1996,140000000
+Northeast,Maryland,1996,1312000000
+Lake States,Michigan,1996,5430000000
+Lake States,Wisconsin,1996,22376000000
+Lake States,Minnesota,1996,9440000000
+Corn Belt,Ohio,1996,4360000000
+Corn Belt,Indiana,1996,2166000000
+Corn Belt,Illinois,1996,2247000000
+Corn Belt,Iowa,1996,3784000000
+Corn Belt,Missouri,1996,2443000000
+Northern Plains,North Dakota,1996,804000000
+Northern Plains,South Dakota,1996,1474000000
+Northern Plains,Nebraska,1996,1050000000
+Northern Plains,Kansas,1996,1200000000
+Appalachian,Virginia,1996,1805000000
+Appalachian,West Virginia,1996,252000000
+Appalachian,North Carolina,1996,1308000000
+Appalachian,Kentucky,1996,1860000000
+Appalachian,Tennessee,1996,1630000000
+Southeast,South Carolina,1996,381000000
+Southeast,Georgia,1996,1486000000
+Southeast,Florida,1996,2401000000
+Southeast,Alabama,1996,434000000
+Delta States,Mississippi,1996,658000000
+Delta States,Arkansas,1996,675000000
+Delta States,Louisiana,1996,838000000
+Southern Plains,Oklahoma,1996,1245000000
+Southern Plains,Texas,1996,6120000000
+Mountain,Montana,1996,307000000
+Mountain,Idaho,1996,4735000000
+Mountain,Wyoming,1996,88000000
+Mountain,Colorado,1996,1633000000
+Mountain,New Mexico,1996,3753000000
+Mountain,Arizona,1996,2474000000
+Mountain,Utah,1996,1547000000
+Mountain,Nevada,1996,470000000
+Pacific,Washington,1996,5279000000
+Pacific,Oregon,1996,1608000000
+Pacific,California,1996,25848000000
+Pacific,Alaska,1996,14000000
+Pacific,Hawaii,1996,129000000
+Northeast,Maine,1997,662000000
+Northeast,New Hampshire,1997,328000000
+Northeast,Vermont,1997,2600000000
+Northeast,Massachusetts,1997,434000000
+Northeast,Rhode Island,1997,32000000
+Northeast,Connecticut,1997,509000000
+Northeast,New York,1997,11530000000
+Northeast,New Jersey,1997,299000000
+Northeast,Pennsylvania,1997,10662000000
+Northeast,Delaware,1997,148000000
+Northeast,Maryland,1997,1326000000
+Lake States,Michigan,1997,5410000000
+Lake States,Wisconsin,1997,22368000000
+Lake States,Minnesota,1997,9210000000
+Corn Belt,Ohio,1997,4415000000
+Corn Belt,Indiana,1997,2189000000
+Corn Belt,Illinois,1997,2203000000
+Corn Belt,Iowa,1997,3693000000
+Corn Belt,Missouri,1997,2362000000
+Northern Plains,North Dakota,1997,713000000
+Northern Plains,South Dakota,1997,1384000000
+Northern Plains,Nebraska,1997,1040000000
+Northern Plains,Kansas,1997,1285000000
+Appalachian,Virginia,1997,1858000000
+Appalachian,West Virginia,1997,266000000
+Appalachian,North Carolina,1997,1304000000
+Appalachian,Kentucky,1997,1815000000
+Appalachian,Tennessee,1997,1609000000
+Southeast,South Carolina,1997,397000000
+Southeast,Georgia,1997,1488000000
+Southeast,Florida,1997,2476000000
+Southeast,Alabama,1997,418000000
+Delta States,Mississippi,1997,634000000
+Delta States,Arkansas,1997,635000000
+Delta States,Louisiana,1997,794000000
+Southern Plains,Oklahoma,1997,1249000000
+Southern Plains,Texas,1997,5768000000
+Mountain,Montana,1997,295000000
+Mountain,Idaho,1997,5193000000
+Mountain,Wyoming,1997,84000000
+Mountain,Colorado,1997,1679000000
+Mountain,New Mexico,1997,4011000000
+Mountain,Arizona,1997,2664000000
+Mountain,Utah,1997,1540000000
+Mountain,Nevada,1997,477000000
+Pacific,Washington,1997,5305000000
+Pacific,Oregon,1997,1610000000
+Pacific,California,1997,27582000000
+Pacific,Alaska,1997,15000000
+Pacific,Hawaii,1997,123000000
+Northeast,Maine,1998,680000000
+Northeast,New Hampshire,1998,333000000
+Northeast,Vermont,1998,2650000000
+Northeast,Massachusetts,1998,438000000
+Northeast,Rhode Island,1998,33000000
+Northeast,Connecticut,1998,529000000
+Northeast,New York,1998,11750000000
+Northeast,New Jersey,1998,292000000
+Northeast,Pennsylvania,1998,10847000000
+Northeast,Delaware,1998,159000000
+Northeast,Maryland,1998,1340000000
+Lake States,Michigan,1998,5365000000
+Lake States,Wisconsin,1998,22842000000
+Lake States,Minnesota,1998,9275000000
+Corn Belt,Ohio,1998,4410000000
+Corn Belt,Indiana,1998,2190000000
+Corn Belt,Illinois,1998,2121000000
+Corn Belt,Iowa,1998,3811000000
+Corn Belt,Missouri,1998,2367000000
+Northern Plains,North Dakota,1998,706000000
+Northern Plains,South Dakota,1998,1386000000
+Northern Plains,Nebraska,1998,1050000000
+Northern Plains,Kansas,1998,1315000000
+Appalachian,Virginia,1998,1841000000
+Appalachian,West Virginia,1998,278000000
+Appalachian,North Carolina,1998,1251000000
+Appalachian,Kentucky,1998,1710000000
+Appalachian,Tennessee,1998,1501000000
+Southeast,South Carolina,1998,374000000
+Southeast,Georgia,1998,1437000000
+Southeast,Florida,1998,2337000000
+Southeast,Alabama,1998,386000000
+Delta States,Mississippi,1998,579000000
+Delta States,Arkansas,1998,540000000
+Delta States,Louisiana,1998,751000000
+Southern Plains,Oklahoma,1998,1236000000
+Southern Plains,Texas,1998,5605000000
+Mountain,Montana,1998,291000000
+Mountain,Idaho,1998,5765000000
+Mountain,Wyoming,1998,80000000
+Mountain,Colorado,1998,1689000000
+Mountain,New Mexico,1998,4354000000
+Mountain,Arizona,1998,2680000000
+Mountain,Utah,1998,1513000000
+Mountain,Nevada,1998,502000000
+Pacific,Washington,1998,5326000000
+Pacific,Oregon,1998,1583000000
+Pacific,California,1998,27620000000
+Pacific,Alaska,1998,14000000
+Pacific,Hawaii,1998,129000000
+Northeast,Maine,1999,689000000
+Northeast,New Hampshire,1999,321000000
+Northeast,Vermont,1999,2710000000
+Northeast,Massachusetts,1999,420000000
+Northeast,Rhode Island,1999,31000000
+Northeast,Connecticut,1999,520000000
+Northeast,New York,1999,12082000000
+Northeast,New Jersey,1999,280000000
+Northeast,Pennsylvania,1999,10931000000
+Northeast,Delaware,1999,145000000
+Northeast,Maryland,1999,1365000000
+Lake States,Michigan,1999,5455000000
+Lake States,Wisconsin,1999,23071000000
+Lake States,Minnesota,1999,9478000000
+Corn Belt,Ohio,1999,4440000000
+Corn Belt,Indiana,1999,2185000000
+Corn Belt,Illinois,1999,2029000000
+Corn Belt,Iowa,1999,3802000000
+Corn Belt,Missouri,1999,2237000000
+Northern Plains,North Dakota,1999,689000000
+Northern Plains,South Dakota,1999,1419000000
+Northern Plains,Nebraska,1999,1139000000
+Northern Plains,Kansas,1999,1405000000
+Appalachian,Virginia,1999,1873000000
+Appalachian,West Virginia,1999,275000000
+Appalachian,North Carolina,1999,1216000000
+Appalachian,Kentucky,1999,1651000000
+Appalachian,Tennessee,1999,1417000000
+Southeast,South Carolina,1999,369000000
+Southeast,Georgia,1999,1449000000
+Southeast,Florida,1999,2398000000
+Southeast,Alabama,1999,376000000
+Delta States,Mississippi,1999,552000000
+Delta States,Arkansas,1999,520000000
+Delta States,Louisiana,1999,711000000
+Southern Plains,Oklahoma,1999,1249000000
+Southern Plains,Texas,1999,5620000000
+Mountain,Montana,1999,303000000
+Mountain,Idaho,1999,6453000000
+Mountain,Wyoming,1999,80000000
+Mountain,Colorado,1999,1728000000
+Mountain,New Mexico,1999,4724000000
+Mountain,Arizona,1999,2931000000
+Mountain,Utah,1999,1618000000
+Mountain,Nevada,1999,456000000
+Pacific,Washington,1999,5535000000
+Pacific,Oregon,1999,1665000000
+Pacific,California,1999,30444000000
+Pacific,Alaska,1999,14000000
+Pacific,Hawaii,1999,120000000
+Northeast,Maine,2000,668000000
+Northeast,New Hampshire,2000,312000000
+Northeast,Vermont,2000,2683000000
+Northeast,Massachusetts,2000,376000000
+Northeast,Rhode Island,2000,28000000
+Northeast,Connecticut,2000,480000000
+Northeast,New York,2000,11921000000
+Northeast,New Jersey,2000,244000000
+Northeast,Pennsylvania,2000,11156000000
+Northeast,Delaware,2000,146000000
+Northeast,Maryland,2000,1351000000
+Lake States,Michigan,2000,5705000000
+Lake States,Wisconsin,2000,23259000000
+Lake States,Minnesota,2000,9493000000
+Corn Belt,Ohio,2000,4461000000
+Corn Belt,Indiana,2000,2419000000
+Corn Belt,Illinois,2000,2094000000
+Corn Belt,Iowa,2000,3934000000
+Corn Belt,Missouri,2000,2258000000
+Northern Plains,North Dakota,2000,686000000
+Northern Plains,South Dakota,2000,1474000000
+Northern Plains,Nebraska,2000,1255000000
+Northern Plains,Kansas,2000,1540000000
+Appalachian,Virginia,2000,1900000000
+Appalachian,West Virginia,2000,265000000
+Appalachian,North Carolina,2000,1189000000
+Appalachian,Kentucky,2000,1695000000
+Appalachian,Tennessee,2000,1405000000
+Southeast,South Carolina,2000,370000000
+Southeast,Georgia,2000,1433000000
+Southeast,Florida,2000,2463000000
+Southeast,Alabama,2000,348000000
+Delta States,Mississippi,2000,541000000
+Delta States,Arkansas,2000,485000000
+Delta States,Louisiana,2000,698000000
+Southern Plains,Oklahoma,2000,1314000000
+Southern Plains,Texas,2000,5743000000
+Mountain,Montana,2000,338000000
+Mountain,Idaho,2000,7223000000
+Mountain,Wyoming,2000,76000000
+Mountain,Colorado,2000,1924000000
+Mountain,New Mexico,2000,5236000000
+Mountain,Arizona,2000,3033000000
+Mountain,Utah,2000,1687000000
+Mountain,Nevada,2000,476000000
+Pacific,Washington,2000,5593000000
+Pacific,Oregon,2000,1640000000
+Pacific,California,2000,32245000000
+Pacific,Alaska,2000,13000000
+Pacific,Hawaii,2000,116000000
+Northeast,Maine,2001,654000000
+Northeast,New Hampshire,2001,322000000
+Northeast,Vermont,2001,2669000000
+Northeast,Massachusetts,2001,357000000
+Northeast,Rhode Island,2001,23000000
+Northeast,Connecticut,2001,456000000
+Northeast,New York,2001,11780000000
+Northeast,New Jersey,2001,233000000
+Northeast,Pennsylvania,2001,10849000000
+Northeast,Delaware,2001,150000000
+Northeast,Maryland,2001,1294000000
+Lake States,Michigan,2001,5870000000
+Lake States,Wisconsin,2001,22199000000
+Lake States,Minnesota,2001,8812000000
+Corn Belt,Ohio,2001,4295000000
+Corn Belt,Indiana,2001,2567000000
+Corn Belt,Illinois,2001,2020000000
+Corn Belt,Iowa,2001,3785000000
+Corn Belt,Missouri,2001,1949000000
+Northern Plains,North Dakota,2001,644000000
+Northern Plains,South Dakota,2001,1370000000
+Northern Plains,Nebraska,2001,1166000000
+Northern Plains,Kansas,2001,1610000000
+Appalachian,Virginia,2001,1885000000
+Appalachian,West Virginia,2001,249000000
+Appalachian,North Carolina,2001,1154000000
+Appalachian,Kentucky,2001,1660000000
+Appalachian,Tennessee,2001,1335000000
+Southeast,South Carolina,2001,367000000
+Southeast,Georgia,2001,1433000000
+Southeast,Florida,2001,2411000000
+Southeast,Alabama,2001,300000000
+Delta States,Mississippi,2001,497000000
+Delta States,Arkansas,2001,432000000
+Delta States,Louisiana,2001,632000000
+Southern Plains,Oklahoma,2001,1325000000
+Southern Plains,Texas,2001,5107000000
+Mountain,Montana,2001,346000000
+Mountain,Idaho,2001,7757000000
+Mountain,Wyoming,2001,63000000
+Mountain,Colorado,2001,1970000000
+Mountain,New Mexico,2001,5561000000
+Mountain,Arizona,2001,3085000000
+Mountain,Utah,2001,1635000000
+Mountain,Nevada,2001,485000000
+Pacific,Washington,2001,5514000000
+Pacific,Oregon,2001,1717000000
+Pacific,California,2001,33217000000
+Pacific,Alaska,2001,14000000
+Pacific,Hawaii,2001,106000000
+Northeast,Maine,2002,656000000
+Northeast,New Hampshire,2002,328000000
+Northeast,Vermont,2002,2703000000
+Northeast,Massachusetts,2002,361000000
+Northeast,Rhode Island,2002,23000000
+Northeast,Connecticut,2002,447000000
+Northeast,New York,2002,12218000000
+Northeast,New Jersey,2002,236000000
+Northeast,Pennsylvania,2002,10775000000
+Northeast,Delaware,2002,150000000
+Northeast,Maryland,2002,1301000000
+Lake States,Michigan,2002,6120000000
+Lake States,Wisconsin,2002,22074000000
+Lake States,Minnesota,2002,8458000000
+Corn Belt,Ohio,2002,4475000000
+Corn Belt,Indiana,2002,2658000000
+Corn Belt,Illinois,2002,2051000000
+Corn Belt,Iowa,2002,3804000000
+Corn Belt,Missouri,2002,1946000000
+Northern Plains,North Dakota,2002,593000000
+Northern Plains,South Dakota,2002,1289000000
+Northern Plains,Nebraska,2002,1167000000
+Northern Plains,Kansas,2002,2030000000
+Appalachian,Virginia,2002,1891000000
+Appalachian,West Virginia,2002,243000000
+Appalachian,North Carolina,2002,1137000000
+Appalachian,Kentucky,2002,1614000000
+Appalachian,Tennessee,2002,1315000000
+Southeast,South Carolina,2002,364000000
+Southeast,Georgia,2002,1470000000
+Southeast,Florida,2002,2308000000
+Southeast,Alabama,2002,277000000
+Delta States,Mississippi,2002,478000000
+Delta States,Arkansas,2002,393000000
+Delta States,Louisiana,2002,579000000
+Southern Plains,Oklahoma,2002,1307000000
+Southern Plains,Texas,2002,5300000000
+Mountain,Montana,2002,341000000
+Mountain,Idaho,2002,8155000000
+Mountain,Wyoming,2002,63000000
+Mountain,Colorado,2002,2159000000
+Mountain,New Mexico,2002,6316000000
+Mountain,Arizona,2002,3430000000
+Mountain,Utah,2002,1666000000
+Mountain,Nevada,2002,501000000
+Pacific,Washington,2002,5620000000
+Pacific,Oregon,2002,2093000000
+Pacific,California,2002,35065000000
+Pacific,Alaska,2002,18000000
+Pacific,Hawaii,2002,97000000
+Northeast,Maine,2003,624000000
+Northeast,New Hampshire,2003,305000000
+Northeast,Vermont,2003,2637000000
+Northeast,Massachusetts,2003,332000000
+Northeast,Rhode Island,2003,22000000
+Northeast,Connecticut,2003,413000000
+Northeast,New York,2003,11952000000
+Northeast,New Jersey,2003,216000000
+Northeast,Pennsylvania,2003,10338000000
+Northeast,Delaware,2003,130000000
+Northeast,Maryland,2003,1177000000
+Lake States,Michigan,2003,6375000000
+Lake States,Wisconsin,2003,22266000000
+Lake States,Minnesota,2003,8258000000
+Corn Belt,Ohio,2003,4490000000
+Corn Belt,Indiana,2003,2939000000
+Corn Belt,Illinois,2003,2047000000
+Corn Belt,Iowa,2003,3810000000
+Corn Belt,Missouri,2003,1886000000
+Northern Plains,North Dakota,2003,500000000
+Northern Plains,South Dakota,2003,1330000000
+Northern Plains,Nebraska,2003,1129000000
+Northern Plains,Kansas,2003,2130000000
+Appalachian,Virginia,2003,1731000000
+Appalachian,West Virginia,2003,216000000
+Appalachian,North Carolina,2003,1044000000
+Appalachian,Kentucky,2003,1465000000
+Appalachian,Tennessee,2003,1205000000
+Southeast,South Carolina,2003,318000000
+Southeast,Georgia,2003,1444000000
+Southeast,Florida,2003,2161000000
+Southeast,Alabama,2003,252000000
+Delta States,Mississippi,2003,423000000
+Delta States,Arkansas,2003,354000000
+Delta States,Louisiana,2003,519000000
+Southern Plains,Oklahoma,2003,1312000000
+Southern Plains,Texas,2003,5630000000
+Mountain,Montana,2003,345000000
+Mountain,Idaho,2003,8774000000
+Mountain,Wyoming,2003,54000000
+Mountain,Colorado,2003,2153000000
+Mountain,New Mexico,2003,6666000000
+Mountain,Arizona,2003,3552000000
+Mountain,Utah,2003,1622000000
+Mountain,Nevada,2003,485000000
+Pacific,Washington,2003,5581000000
+Pacific,Oregon,2003,2191000000
+Pacific,California,2003,35437000000
+Pacific,Alaska,2003,17000000
+Pacific,Hawaii,2003,92000000
+Northeast,Maine,2004,612000000
+Northeast,New Hampshire,2004,303000000
+Northeast,Vermont,2004,2594000000
+Northeast,Massachusetts,2004,296000000
+Northeast,Rhode Island,2004,20000000
+Northeast,Connecticut,2004,392000000
+Northeast,New York,2004,11650000000
+Northeast,New Jersey,2004,200000000
+Northeast,Pennsylvania,2004,10062000000
+Northeast,Delaware,2004,125000000
+Northeast,Maryland,2004,1116000000
+Lake States,Michigan,2004,6330000000
+Lake States,Wisconsin,2004,22085000000
+Lake States,Minnesota,2004,8102000000
+Corn Belt,Ohio,2004,4560000000
+Corn Belt,Indiana,2004,3027000000
+Corn Belt,Illinois,2004,1978000000
+Corn Belt,Iowa,2004,3851000000
+Corn Belt,Missouri,2004,1847000000
+Northern Plains,North Dakota,2004,465000000
+Northern Plains,South Dakota,2004,1347000000
+Northern Plains,Nebraska,2004,1049000000
+Northern Plains,Kansas,2004,2216000000
+Appalachian,Virginia,2004,1731000000
+Appalachian,West Virginia,2004,194000000
+Appalachian,North Carolina,2004,1006000000
+Appalachian,Kentucky,2004,1422000000
+Appalachian,Tennessee,2004,1155000000
+Southeast,South Carolina,2004,287000000
+Southeast,Georgia,2004,1416000000
+Southeast,Florida,2004,2253000000
+Southeast,Alabama,2004,245000000
+Delta States,Mississippi,2004,379000000
+Delta States,Arkansas,2004,323000000
+Delta States,Louisiana,2004,479000000
+Southern Plains,Oklahoma,2004,1263000000
+Southern Plains,Texas,2004,6009000000
+Mountain,Montana,2004,348000000
+Mountain,Idaho,2004,9093000000
+Mountain,Wyoming,2004,63000000
+Mountain,Colorado,2004,2184000000
+Mountain,New Mexico,2004,6737000000
+Mountain,Arizona,2004,3646000000
+Mountain,Utah,2004,1616000000
+Mountain,Nevada,2004,509000000
+Pacific,Washington,2004,5416000000
+Pacific,Oregon,2004,2270000000
+Pacific,California,2004,36465000000
+Pacific,Alaska,2004,15000000
+Pacific,Hawaii,2004,81000000
+Northeast,Maine,2005,595000000
+Northeast,New Hampshire,2005,302000000
+Northeast,Vermont,2005,2641000000
+Northeast,Massachusetts,2005,290000000
+Northeast,Rhode Island,2005,19000000
+Northeast,Connecticut,2005,384000000
+Northeast,New York,2005,12078000000
+Northeast,New Jersey,2005,192000000
+Northeast,Pennsylvania,2005,10503000000
+Northeast,Delaware,2005,123000000
+Northeast,Maryland,2005,1143000000
+Lake States,Michigan,2005,6750000000
+Lake States,Wisconsin,2005,22866000000
+Lake States,Minnesota,2005,8195000000
+Corn Belt,Ohio,2005,4743000000
+Corn Belt,Indiana,2005,3166000000
+Corn Belt,Illinois,2005,1958000000
+Corn Belt,Iowa,2005,4025000000
+Corn Belt,Missouri,2005,1875000000
+Northern Plains,North Dakota,2005,468000000
+Northern Plains,South Dakota,2005,1437000000
+Northern Plains,Nebraska,2005,1077000000
+Northern Plains,Kansas,2005,2276000000
+Appalachian,Virginia,2005,1784000000
+Appalachian,West Virginia,2005,194000000
+Appalachian,North Carolina,2005,1012000000
+Appalachian,Kentucky,2005,1367000000
+Appalachian,Tennessee,2005,1102000000
+Southeast,South Carolina,2005,288000000
+Southeast,Georgia,2005,1398000000
+Southeast,Florida,2005,2273000000
+Southeast,Alabama,2005,224000000
+Delta States,Mississippi,2005,382000000
+Delta States,Arkansas,2005,298000000
+Delta States,Louisiana,2005,434000000
+Southern Plains,Oklahoma,2005,1236000000
+Southern Plains,Texas,2005,6444000000
+Mountain,Montana,2005,372000000
+Mountain,Idaho,2005,10161000000
+Mountain,Wyoming,2005,73000000
+Mountain,Colorado,2005,2348000000
+Mountain,New Mexico,2005,6951000000
+Mountain,Arizona,2005,3742000000
+Mountain,Utah,2005,1661000000
+Mountain,Nevada,2005,542000000
+Pacific,Washington,2005,5608000000
+Pacific,Oregon,2005,2284000000
+Pacific,California,2005,37564000000
+Pacific,Alaska,2005,14000000
+Pacific,Hawaii,2005,70000000
+Northeast,Maine,2006,574000000
+Northeast,New Hampshire,2006,293000000
+Northeast,Vermont,2006,2592000000
+Northeast,Massachusetts,2006,278000000
+Northeast,Rhode Island,2006,19000000
+Northeast,Connecticut,2006,367000000
+Northeast,New York,2006,12045000000
+Northeast,New Jersey,2006,178000000
+Northeast,Pennsylvania,2006,10742000000
+Northeast,Delaware,2006,114000000
+Northeast,Maryland,2006,1106000000
+Lake States,Michigan,2006,7115000000
+Lake States,Wisconsin,2006,23398000000
+Lake States,Minnesota,2006,8369000000
+Corn Belt,Ohio,2006,4860000000
+Corn Belt,Indiana,2006,3277000000
+Corn Belt,Illinois,2006,1983000000
+Corn Belt,Iowa,2006,4126000000
+Corn Belt,Missouri,2006,1840000000
+Northern Plains,North Dakota,2006,470000000
+Northern Plains,South Dakota,2006,1505000000
+Northern Plains,Nebraska,2006,1118000000
+Northern Plains,Kansas,2006,2345000000
+Appalachian,Virginia,2006,1771000000
+Appalachian,West Virginia,2006,200000000
+Appalachian,North Carolina,2006,944000000
+Appalachian,Kentucky,2006,1303000000
+Appalachian,Tennessee,2006,1049000000
+Southeast,South Carolina,2006,277000000
+Southeast,Georgia,2006,1404000000
+Southeast,Florida,2006,2171000000
+Southeast,Alabama,2006,203000000
+Delta States,Mississippi,2006,344000000
+Delta States,Arkansas,2006,258000000
+Delta States,Louisiana,2006,396000000
+Southern Plains,Oklahoma,2006,1214000000
+Southern Plains,Texas,2006,7157000000
+Mountain,Montana,2006,354000000
+Mountain,Idaho,2006,10905000000
+Mountain,Wyoming,2006,118000000
+Mountain,Colorado,2006,2547000000
+Mountain,New Mexico,2006,7605000000
+Mountain,Arizona,2006,3954000000
+Mountain,Utah,2006,1747000000
+Mountain,Nevada,2006,544000000
+Pacific,Washington,2006,5464000000
+Pacific,Oregon,2006,2242000000
+Pacific,California,2006,38830000000
+Pacific,Alaska,2006,10000000
+Pacific,Hawaii,2006,57000000
+Northeast,Maine,2007,587000000
+Northeast,New Hampshire,2007,290000000
+Northeast,Vermont,2007,2531000000
+Northeast,Massachusetts,2007,255000000
+Northeast,Rhode Island,2007,18000000
+Northeast,Connecticut,2007,365000000
+Northeast,New York,2007,12103000000
+Northeast,New Jersey,2007,168000000
+Northeast,Pennsylvania,2007,10682000000
+Northeast,Delaware,2007,113000000
+Northeast,Maryland,2007,1051000000
+Lake States,Michigan,2007,7625000000
+Lake States,Wisconsin,2007,24080000000
+Lake States,Minnesota,2007,8656000000
+Corn Belt,Ohio,2007,4980000000
+Corn Belt,Indiana,2007,3371000000
+Corn Belt,Illinois,2007,1917000000
+Corn Belt,Iowa,2007,4278000000
+Corn Belt,Missouri,2007,1678000000
+Northern Plains,North Dakota,2007,444000000
+Northern Plains,South Dakota,2007,1641000000
+Northern Plains,Nebraska,2007,1075000000
+Northern Plains,Kansas,2007,2187000000
+Appalachian,Virginia,2007,1753000000
+Appalachian,West Virginia,2007,195000000
+Appalachian,North Carolina,2007,921000000
+Appalachian,Kentucky,2007,1250000000
+Appalachian,Tennessee,2007,999000000
+Southeast,South Carolina,2007,322000000
+Southeast,Georgia,2007,1399000000
+Southeast,Florida,2007,2104000000
+Southeast,Alabama,2007,197000000
+Delta States,Mississippi,2007,324000000
+Delta States,Arkansas,2007,220000000
+Delta States,Louisiana,2007,349000000
+Southern Plains,Oklahoma,2007,1144000000
+Southern Plains,Texas,2007,7384000000
+Mountain,Montana,2007,333000000
+Mountain,Idaho,2007,11549000000
+Mountain,Wyoming,2007,134000000
+Mountain,Colorado,2007,2706000000
+Mountain,New Mexico,2007,7290000000
+Mountain,Arizona,2007,4210000000
+Mountain,Utah,2007,1732000000
+Mountain,Nevada,2007,553000000
+Pacific,Washington,2007,5531000000
+Pacific,Oregon,2007,2233000000
+Pacific,California,2007,40683000000
+Pacific,Alaska,2007,9000000
+Pacific,Hawaii,2007,36000000
+Northeast,Maine,2008,603000000
+Northeast,New Hampshire,2008,299000000
+Northeast,Vermont,2008,2576000000
+Northeast,Massachusetts,2008,254000000
+Northeast,Rhode Island,2008,20000000
+Northeast,Connecticut,2008,364000000
+Northeast,New York,2008,12432000000
+Northeast,New Jersey,2008,169000000
+Northeast,Pennsylvania,2008,10575000000
+Northeast,Delaware,2008,110000000
+Northeast,Maryland,2008,1029000000
+Lake States,Michigan,2008,7763000000
+Lake States,Wisconsin,2008,24472000000
+Lake States,Minnesota,2008,8782000000
+Corn Belt,Ohio,2008,5135000000
+Corn Belt,Indiana,2008,3287000000
+Corn Belt,Illinois,2008,1862000000
+Corn Belt,Iowa,2008,4236000000
+Corn Belt,Missouri,2008,1615000000
+Northern Plains,North Dakota,2008,418000000
+Northern Plains,South Dakota,2008,1796000000
+Northern Plains,Nebraska,2008,1083000000
+Northern Plains,Kansas,2008,2415000000
+Appalachian,Virginia,2008,1726000000
+Appalachian,West Virginia,2008,181000000
+Appalachian,North Carolina,2008,892000000
+Appalachian,Kentucky,2008,1210000000
+Appalachian,Tennessee,2008,948000000
+Southeast,South Carolina,2008,323000000
+Southeast,Georgia,2008,1355000000
+Southeast,Florida,2008,2061000000
+Southeast,Alabama,2008,184000000
+Delta States,Mississippi,2008,291000000
+Delta States,Arkansas,2008,186000000
+Delta States,Louisiana,2008,319000000
+Southern Plains,Oklahoma,2008,1061000000
+Southern Plains,Texas,2008,8416000000
+Mountain,Montana,2008,313000000
+Mountain,Idaho,2008,12315000000
+Mountain,Wyoming,2008,136000000
+Mountain,Colorado,2008,2935000000
+Mountain,New Mexico,2008,7865000000
+Mountain,Arizona,2008,4351000000
+Mountain,Utah,2008,1784000000
+Mountain,Nevada,2008,653000000
+Pacific,Washington,2008,5696000000
+Pacific,Oregon,2008,2254000000
+Pacific,California,2008,41203000000
+Pacific,Alaska,2008,7000000
+Pacific,Hawaii,2008,19000000
+Northeast,Maine,2009,596000000
+Northeast,New Hampshire,2009,293000000
+Northeast,Vermont,2009,2469000000
+Northeast,Massachusetts,2009,246000000
+Northeast,Rhode Island,2009,20000000
+Northeast,Connecticut,2009,353000000
+Northeast,New York,2009,12424000000
+Northeast,New Jersey,2009,158000000
+Northeast,Pennsylvania,2009,10551000000
+Northeast,Delaware,2009,102000000
+Northeast,Maryland,2009,1004000000
+Lake States,Michigan,2009,7968000000
+Lake States,Wisconsin,2009,25239000000
+Lake States,Minnesota,2009,9019000000
+Corn Belt,Ohio,2009,5192000000
+Corn Belt,Indiana,2009,3383000000
+Corn Belt,Illinois,2009,1862000000
+Corn Belt,Iowa,2009,4301000000
+Corn Belt,Missouri,2009,1568000000
+Northern Plains,North Dakota,2009,387000000
+Northern Plains,South Dakota,2009,1892000000
+Northern Plains,Nebraska,2009,1198000000
+Northern Plains,Kansas,2009,2488000000
+Appalachian,Virginia,2009,1736000000
+Appalachian,West Virginia,2009,162000000
+Appalachian,North Carolina,2009,884000000
+Appalachian,Kentucky,2009,1192000000
+Appalachian,Tennessee,2009,909000000
+Southeast,South Carolina,2009,325000000
+Southeast,Georgia,2009,1400000000
+Southeast,Florida,2009,2080000000
+Southeast,Alabama,2009,164000000
+Delta States,Mississippi,2009,250000000
+Delta States,Arkansas,2009,165000000
+Delta States,Louisiana,2009,271000000
+Southern Plains,Oklahoma,2009,1002000000
+Southern Plains,Texas,2009,8840000000
+Mountain,Montana,2009,299000000
+Mountain,Idaho,2009,12150000000
+Mountain,Wyoming,2009,105000000
+Mountain,Colorado,2009,2837000000
+Mountain,New Mexico,2009,7904000000
+Mountain,Arizona,2009,4082000000
+Mountain,Utah,2009,1771000000
+Mountain,Nevada,2009,613000000
+Pacific,Washington,2009,5561000000
+Pacific,Oregon,2009,2248000000
+Pacific,California,2009,39512000000
+Pacific,Alaska,2009,6000000
+Pacific,Hawaii,2009,21000000
+Northeast,Maine,2010,587000000
+Northeast,New Hampshire,2010,294000000
+Northeast,Vermont,2010,2521000000
+Northeast,Massachusetts,2010,242000000
+Northeast,Rhode Island,2010,20000000
+Northeast,Connecticut,2010,364000000
+Northeast,New York,2010,12713000000
+Northeast,New Jersey,2010,140000000
+Northeast,Pennsylvania,2010,10737000000
+Northeast,Delaware,2010,90000000
+Northeast,Maryland,2010,1001000000
+Lake States,Michigan,2010,8333000000
+Lake States,Wisconsin,2010,26035000000
+Lake States,Minnesota,2010,9102000000
+Corn Belt,Ohio,2010,5270000000
+Corn Belt,Indiana,2010,3416000000
+Corn Belt,Illinois,2010,1840000000
+Corn Belt,Iowa,2010,4342000000
+Corn Belt,Missouri,2010,1445000000
+Northern Plains,North Dakota,2010,384000000
+Northern Plains,South Dakota,2010,1884000000
+Northern Plains,Nebraska,2010,1168000000
+Northern Plains,Kansas,2010,2497000000
+Appalachian,Virginia,2010,1719000000
+Appalachian,West Virginia,2010,157000000
+Appalachian,North Carolina,2010,866000000
+Appalachian,Kentucky,2010,1152000000
+Appalachian,Tennessee,2010,850000000
+Southeast,South Carolina,2010,286000000
+Southeast,Georgia,2010,1395000000
+Southeast,Florida,2010,2133000000
+Southeast,Alabama,2010,156000000
+Delta States,Mississippi,2010,223000000
+Delta States,Arkansas,2010,153000000
+Delta States,Louisiana,2010,235000000
+Southern Plains,Oklahoma,2010,959000000
+Southern Plains,Texas,2010,8828000000
+Mountain,Montana,2010,289000000
+Mountain,Idaho,2010,12773000000
+Mountain,Wyoming,2010,120000000
+Mountain,Colorado,2010,2816000000
+Mountain,New Mexico,2010,7881000000
+Mountain,Arizona,2010,4151000000
+Mountain,Utah,2010,1927000000
+Mountain,Nevada,2010,664000000
+Pacific,Washington,2010,5902000000
+Pacific,Oregon,2010,2399000000
+Pacific,California,2010,40385000000
+Pacific,Alaska,2010,7000000
+Pacific,Hawaii,2010,25000000
+Northeast,Maine,2011,598000000
+Northeast,New Hampshire,2011,286000000
+Northeast,Vermont,2011,2538000000
+Northeast,Massachusetts,2011,220000000
+Northeast,Rhode Island,2011,20000000
+Northeast,Connecticut,2011,361000000
+Northeast,New York,2011,12838000000
+Northeast,New Jersey,2011,135000000
+Northeast,Pennsylvania,2011,10547000000
+Northeast,Delaware,2011,92000000
+Northeast,Maryland,2011,970000000
+Lake States,Michigan,2011,8478000000
+Lake States,Wisconsin,2011,26058000000
+Lake States,Minnesota,2011,8890000000
+Corn Belt,Ohio,2011,5144000000
+Corn Belt,Indiana,2011,3553000000
+Corn Belt,Illinois,2011,1814000000
+Corn Belt,Iowa,2011,4323000000
+Corn Belt,Missouri,2011,1388000000
+Northern Plains,North Dakota,2011,345000000
+Northern Plains,South Dakota,2011,1873000000
+Northern Plains,Nebraska,2011,1173000000
+Northern Plains,Kansas,2011,2585000000
+Appalachian,Virginia,2011,1719000000
+Appalachian,West Virginia,2011,157000000
+Appalachian,North Carolina,2011,904000000
+Appalachian,Kentucky,2011,1090000000
+Appalachian,Tennessee,2011,810000000
+Southeast,South Carolina,2011,279000000
+Southeast,Georgia,2011,1450000000
+Southeast,Florida,2011,2269000000
+Southeast,Alabama,2011,143000000
+Delta States,Mississippi,2011,204000000
+Delta States,Arkansas,2011,143000000
+Delta States,Louisiana,2011,232000000
+Southern Plains,Oklahoma,2011,923000000
+Southern Plains,Texas,2011,9582000000
+Mountain,Montana,2011,288000000
+Mountain,Idaho,2011,13251000000
+Mountain,Wyoming,2011,123000000
+Mountain,Colorado,2011,2999000000
+Mountain,New Mexico,2011,8177000000
+Mountain,Arizona,2011,4413000000
+Mountain,Utah,2011,2061000000
+Mountain,Nevada,2011,666000000
+Pacific,Washington,2011,6169000000
+Pacific,Oregon,2011,2479000000
+Pacific,California,2011,41462000000
+Pacific,Alaska,2011,7000000
+Pacific,Hawaii,2011,27000000
+Northeast,Maine,2012,613000000
+Northeast,New Hampshire,2012,275000000
+Northeast,Vermont,2012,2569000000
+Northeast,Massachusetts,2012,219000000
+Northeast,Rhode Island,2012,18000000
+Northeast,Connecticut,2012,358000000
+Northeast,New York,2012,13190000000
+Northeast,New Jersey,2012,130000000
+Northeast,Pennsylvania,2012,10478000000
+Northeast,Delaware,2012,94000000
+Northeast,Maryland,2012,979000000
+Lake States,Michigan,2012,8991000000
+Lake States,Wisconsin,2012,27224000000
+Lake States,Minnesota,2012,9073000000
+Corn Belt,Ohio,2012,5355000000
+Corn Belt,Indiana,2012,3752000000
+Corn Belt,Illinois,2012,1868000000
+Corn Belt,Iowa,2012,4513000000
+Corn Belt,Missouri,2012,1408000000
+Northern Plains,North Dakota,2012,347000000
+Northern Plains,South Dakota,2012,1968000000
+Northern Plains,Nebraska,2012,1186000000
+Northern Plains,Kansas,2012,2732000000
+Appalachian,Virginia,2012,1727000000
+Appalachian,West Virginia,2012,154000000
+Appalachian,North Carolina,2012,940000000
+Appalachian,Kentucky,2012,1120000000
+Appalachian,Tennessee,2012,805000000
+Southeast,South Carolina,2012,276000000
+Southeast,Georgia,2012,1531000000
+Southeast,Florida,2012,2340000000
+Southeast,Alabama,2012,130000000
+Delta States,Mississippi,2012,199000000
+Delta States,Arkansas,2012,133000000
+Delta States,Louisiana,2012,222000000
+Southern Plains,Oklahoma,2012,859000000
+Southern Plains,Texas,2012,9596000000
+Mountain,Montana,2012,299000000
+Mountain,Idaho,2012,13558000000
+Mountain,Wyoming,2012,124000000
+Mountain,Colorado,2012,3213000000
+Mountain,New Mexico,2012,8149000000
+Mountain,Arizona,2012,4508000000
+Mountain,Utah,2012,2172000000
+Mountain,Nevada,2012,665000000
+Pacific,Washington,2012,6234000000
+Pacific,Oregon,2012,2513000000
+Pacific,California,2012,41801000000
+Pacific,Alaska,2012,6000000
+Pacific,Hawaii,2012,28000000
+Northeast,Maine,2013,606000000
+Northeast,New Hampshire,2013,272000000
+Northeast,Vermont,2013,2606000000
+Northeast,Massachusetts,2013,230000000
+Northeast,Rhode Island,2013,17000000
+Northeast,Connecticut,2013,370000000
+Northeast,New York,2013,13463000000
+Northeast,New Jersey,2013,127000000
+Northeast,Pennsylvania,2013,10552000000
+Northeast,Delaware,2013,94000000
+Northeast,Maryland,2013,972000000
+Lake States,Michigan,2013,9164000000
+Lake States,Wisconsin,2013,27572000000
+Lake States,Minnesota,2013,9138000000
+Corn Belt,Ohio,2013,5448000000
+Corn Belt,Indiana,2013,3830000000
+Corn Belt,Illinois,2013,1830000000
+Corn Belt,Iowa,2013,4607000000
+Corn Belt,Missouri,2013,1349000000
+Northern Plains,North Dakota,2013,341000000
+Northern Plains,South Dakota,2013,2023000000
+Northern Plains,Nebraska,2013,1165000000
+Northern Plains,Kansas,2013,2932000000
+Appalachian,Virginia,2013,1742000000
+Appalachian,West Virginia,2013,152000000
+Appalachian,North Carolina,2013,935000000
+Appalachian,Kentucky,2013,1070000000
+Appalachian,Tennessee,2013,765000000
+Southeast,South Carolina,2013,264000000
+Southeast,Georgia,2013,1568000000
+Southeast,Florida,2013,2383000000
+Southeast,Alabama,2013,117000000
+Delta States,Mississippi,2013,186000000
+Delta States,Arkansas,2013,105000000
+Delta States,Louisiana,2013,206000000
+Southern Plains,Oklahoma,2013,779000000
+Southern Plains,Texas,2013,9610000000
+Mountain,Montana,2013,298000000
+Mountain,Idaho,2013,13431000000
+Mountain,Wyoming,2013,128000000
+Mountain,Colorado,2013,3328000000
+Mountain,New Mexico,2013,8057000000
+Mountain,Arizona,2013,4489000000
+Mountain,Utah,2013,2131000000
+Mountain,Nevada,2013,639000000
+Pacific,Washington,2013,6336000000
+Pacific,Oregon,2013,2514000000
+Pacific,California,2013,41256000000
+Pacific,Alaska,2013,3000000
+Pacific,Hawaii,2013,30000000
+Northeast,Maine,2014,599000000
+Northeast,New Hampshire,2014,282000000
+Northeast,Vermont,2014,2666000000
+Northeast,Massachusetts,2014,233000000
+Northeast,Rhode Island,2014,17000000
+Northeast,Connecticut,2014,383000000
+Northeast,New York,2014,13730000000
+Northeast,New Jersey,2014,127000000
+Northeast,Pennsylvania,2014,10664000000
+Northeast,Delaware,2014,97000000
+Northeast,Maryland,2014,987000000
+Lake States,Michigan,2014,9609000000
+Lake States,Wisconsin,2014,27795000000
+Lake States,Minnesota,2014,9127000000
+Corn Belt,Ohio,2014,5425000000
+Corn Belt,Indiana,2014,3892000000
+Corn Belt,Illinois,2014,1850000000
+Corn Belt,Iowa,2014,4647000000
+Corn Belt,Missouri,2014,1383000000
+Northern Plains,North Dakota,2014,324000000
+Northern Plains,South Dakota,2014,2110000000
+Northern Plains,Nebraska,2014,1195000000
+Northern Plains,Kansas,2014,3114000000
+Appalachian,Virginia,2014,1779000000
+Appalachian,West Virginia,2014,140000000
+Appalachian,North Carolina,2014,961000000
+Appalachian,Kentucky,2014,1002000000
+Appalachian,Tennessee,2014,745000000
+Southeast,South Carolina,2014,263000000
+Southeast,Georgia,2014,1691000000
+Southeast,Florida,2014,2508000000
+Southeast,Alabama,2014,109000000
+Delta States,Mississippi,2014,188000000
+Delta States,Arkansas,2014,96000000
+Delta States,Louisiana,2014,204000000
+Southern Plains,Oklahoma,2014,726000000
+Southern Plains,Texas,2014,10310000000
+Mountain,Montana,2014,301000000
+Mountain,Idaho,2014,13873000000
+Mountain,Wyoming,2014,130000000
+Mountain,Colorado,2014,3593000000
+Mountain,New Mexico,2014,8105000000
+Mountain,Arizona,2014,4703000000
+Mountain,Utah,2014,2184000000
+Mountain,Nevada,2014,690000000
+Pacific,Washington,2014,6576000000
+Pacific,Oregon,2014,2550000000
+Pacific,California,2014,42339000000
+Pacific,Alaska,2014,4000000
+Pacific,Hawaii,2014,30000000
+Northeast,Maine,2015,594000000
+Northeast,New Hampshire,2015,282000000
+Northeast,Vermont,2015,2666000000
+Northeast,Massachusetts,2015,217000000
+Northeast,Rhode Island,2015,16000000
+Northeast,Connecticut,2015,396000000
+Northeast,New York,2015,14094000000
+Northeast,New Jersey,2015,127000000
+Northeast,Pennsylvania,2015,10800000000
+Northeast,Delaware,2015,99000000
+Northeast,Maryland,2015,983000000
+Lake States,Michigan,2015,10261000000
+Lake States,Wisconsin,2015,29030000000
+Lake States,Minnesota,2015,9462000000
+Corn Belt,Ohio,2015,5493000000
+Corn Belt,Indiana,2015,4025000000
+Corn Belt,Illinois,2015,1894000000
+Corn Belt,Iowa,2015,4838000000
+Corn Belt,Missouri,2015,1365000000
+Northern Plains,North Dakota,2015,332000000
+Northern Plains,South Dakota,2015,2359000000
+Northern Plains,Nebraska,2015,1307000000
+Northern Plains,Kansas,2015,3176000000
+Appalachian,Virginia,2015,1771000000
+Appalachian,West Virginia,2015,141000000
+Appalachian,North Carolina,2015,985000000
+Appalachian,Kentucky,2015,1077000000
+Appalachian,Tennessee,2015,742000000
+Southeast,South Carolina,2015,261000000
+Southeast,Georgia,2015,1797000000
+Southeast,Florida,2015,2582000000
+Southeast,Alabama,2015,101000000
+Delta States,Mississippi,2015,165000000
+Delta States,Arkansas,2015,91000000
+Delta States,Louisiana,2015,188000000
+Southern Plains,Oklahoma,2015,727000000
+Southern Plains,Texas,2015,10301000000
+Mountain,Montana,2015,299000000
+Mountain,Idaho,2015,14114000000
+Mountain,Wyoming,2015,135000000
+Mountain,Colorado,2015,3757000000
+Mountain,New Mexico,2015,7831000000
+Mountain,Arizona,2015,4734000000
+Mountain,Utah,2015,2220000000
+Mountain,Nevada,2015,669000000
+Pacific,Washington,2015,6606000000
+Pacific,Oregon,2015,2551000000
+Pacific,California,2015,40897000000
+Pacific,Alaska,2015,4000000
+Pacific,Hawaii,2015,35000000
+Northeast,Maine,2016,630000000
+Northeast,New Hampshire,2016,287000000
+Northeast,Vermont,2016,2727000000
+Northeast,Massachusetts,2016,221000000
+Northeast,Rhode Island,2016,14000000
+Northeast,Connecticut,2016,409000000
+Northeast,New York,2016,14777000000
+Northeast,New Jersey,2016,122000000
+Northeast,Pennsylvania,2016,10820000000
+Northeast,Delaware,2016,96000000
+Northeast,Maryland,2016,957000000
+Lake States,Michigan,2016,10876000000
+Lake States,Wisconsin,2016,30110000000
+Lake States,Minnesota,2016,9666000000
+Corn Belt,Ohio,2016,5548000000
+Corn Belt,Indiana,2016,4153000000
+Corn Belt,Illinois,2016,1912000000
+Corn Belt,Iowa,2016,5034000000
+Corn Belt,Missouri,2016,1260000000
+Northern Plains,North Dakota,2016,344000000
+Northern Plains,South Dakota,2016,2546000000
+Northern Plains,Nebraska,2016,1399000000
+Northern Plains,Kansas,2016,3329000000
+Appalachian,Virginia,2016,1723000000
+Appalachian,West Virginia,2016,134000000
+Appalachian,North Carolina,2016,965000000
+Appalachian,Kentucky,2016,1047000000
+Appalachian,Tennessee,2016,696000000
+Southeast,South Carolina,2016,250000000
+Southeast,Georgia,2016,1830000000
+Southeast,Florida,2016,2495000000
+Southeast,Alabama,2016,92000000
+Delta States,Mississippi,2016,144000000
+Delta States,Arkansas,2016,80000000
+Delta States,Louisiana,2016,169000000
+Southern Plains,Oklahoma,2016,692000000
+Southern Plains,Texas,2016,10773000000
+Mountain,Montana,2016,295000000
+Mountain,Idaho,2016,14665000000
+Mountain,Wyoming,2016,140000000
+Mountain,Colorado,2016,3925000000
+Mountain,New Mexico,2016,7711000000
+Mountain,Arizona,2016,4837000000
+Mountain,Utah,2016,2095000000
+Mountain,Nevada,2016,660000000
+Pacific,Washington,2016,6650000000
+Pacific,Oregon,2016,2593000000
+Pacific,California,2016,40469000000
+Pacific,Alaska,2016,4000000
+Pacific,Hawaii,2016,35000000
+Northeast,Maine,2017,630000000
+Northeast,New Hampshire,2017,273000000
+Northeast,Vermont,2017,2728000000
+Northeast,Massachusetts,2017,211000000
+Northeast,Rhode Island,2017,13000000
+Northeast,Connecticut,2017,420000000
+Northeast,New York,2017,14912000000
+Northeast,New Jersey,2017,119000000
+Northeast,Pennsylvania,2017,10938000000
+Northeast,Delaware,2017,93000000
+Northeast,Maryland,2017,953000000
+Lake States,Michigan,2017,11231000000
+Lake States,Wisconsin,2017,30320000000
+Lake States,Minnesota,2017,9864000000
+Corn Belt,Ohio,2017,5591000000
+Corn Belt,Indiana,2017,4264000000
+Corn Belt,Illinois,2017,1929000000
+Corn Belt,Iowa,2017,5172000000
+Corn Belt,Missouri,2017,1240000000
+Northern Plains,North Dakota,2017,345000000
+Northern Plains,South Dakota,2017,2618000000
+Northern Plains,Nebraska,2017,1444000000
+Northern Plains,Kansas,2017,3496000000
+Appalachian,Virginia,2017,1736000000
+Appalachian,West Virginia,2017,127000000
+Appalachian,North Carolina,2017,952000000
+Appalachian,Kentucky,2017,1041000000
+Appalachian,Tennessee,2017,693000000
+Southeast,South Carolina,2017,247000000
+Southeast,Georgia,2017,1840000000
+Southeast,Florida,2017,2496000000
+Southeast,Alabama,2017,89000000
+Delta States,Mississippi,2017,137000000
+Delta States,Arkansas,2017,79000000
+Delta States,Louisiana,2017,160000000
+Southern Plains,Oklahoma,2017,728000000
+Southern Plains,Texas,2017,12054000000
+Mountain,Montana,2017,288000000
+Mountain,Idaho,2017,14627000000
+Mountain,Wyoming,2017,138000000
+Mountain,Colorado,2017,4189000000
+Mountain,New Mexico,2017,8212000000
+Mountain,Arizona,2017,5010000000
+Mountain,Utah,2017,2215000000
+Mountain,Nevada,2017,709000000
+Pacific,Washington,2017,6526000000
+Pacific,Oregon,2017,2529000000
+Pacific,California,2017,39798000000
+Pacific,Alaska,2017,3000000
+Pacific,Hawaii,2017,39000000

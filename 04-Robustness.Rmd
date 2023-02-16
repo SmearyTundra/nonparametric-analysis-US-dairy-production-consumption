@@ -1,0 +1,148 @@
+---
+title: "Nonparametric Analysis of US Dairy Production and Consumption"
+subtitle: "Robustness"
+author:
+    - "Teo Bucci^[teo.bucci@mail.polimi.it]"
+    - "Filippo Cipriani^[filippo.cipriani@mail.polimi.it]"
+    - "Gabriele Corbo^[gabriele.corbo@mail.polimi.it]"
+    - "Andrea Puricelli^[andrea3.puricelli@mail.polimi.it]"
+output:
+    pdf_document:
+        toc: true
+        toc_depth: 3
+        number_section: true
+        #keep_md: TRUE
+    html_document:
+        toc: true
+        toc_float: true
+        number_sections: true
+date: "2023-02-17"
+editor_options:
+    chunk_output_type: inline
+---
+  
+```{r setup, echo = FALSE}
+knitr::opts_chunk$set(
+    echo = TRUE,
+    dev = c('pdf'),
+    fig.align = 'center',
+    fig.path = 'output/',
+    fig.height = 6,
+    fig.width = 12
+)
+```
+
+# Load libraries and data
+
+```{r, message=FALSE}
+library(robustbase)
+library(splines)
+library(mgcv)
+```
+
+```{r}
+data_path = file.path('data_updated_2021')
+output_path = file.path('output')
+
+data_infl <-
+    read.table(
+        file.path(data_path, 'production_facts_inflated.csv'),
+        header = T,
+        sep = ';'
+    ) 
+```
+
+# Robust regression
+
+Define the formula for the regression.
+
+```{r}
+formula = avg_price_milk ~ avg_milk_cow_number + milk_per_cow + 
+  milk_cow_cost_per_animal + milk_volume_to_buy_cow_in_lbs
+```
+
+Perform the regression.
+
+```{r}
+fit_lts <- ltsReg(formula ,
+                  alpha = .75,
+                  mcd = TRUE,
+                  data = data_infl)
+```
+
+# Plot diagnostic
+
+```{r}
+thresh = sqrt(qchisq(0.975, ncol(data_infl)))
+```
+
+## Residual versus year (index)
+
+```{r robust-residual-year}
+# plot(fit_lts, which="rindex")
+plot(
+    data_infl$year,
+    fit_lts$resid,
+    ylim = c(-3, 4),
+    main = "Residuals vs Year",
+    xlab = "Year",
+    ylab = "Standardized LTS residual",
+    type = "l"
+)
+points(
+    data_infl$year,
+    fit_lts$resid,
+    pch = 16
+)
+abline(h = c(-2.5, 2.5), lwd = 2)
+abline(h = 0, lty = 2)
+text(
+    data_infl$year,
+    fit_lts$resid,
+    labels = ifelse(abs(fit_lts$resid) > 2.5, data_infl$year, ""),
+    pos = 2
+)
+```
+
+The overall outliers are
+
+```{r}
+data_infl$year[which(abs(fit_lts$resid) > 2.5)]
+```
+
+We can now proceed to classify them as *vertical outliers* or *bad leverages*.
+
+## Outlier map
+
+```{r robust-outlier-map}
+# plot(fit_lts, which="rdiag")
+plot(
+    fit_lts$RD,
+    fit_lts$resid,
+    ylim = c(-3, 4),
+    pch = 16,
+    main = "Regression Diagnostic Plot",
+    xlab = "Robust distance computed by MCD",
+    ylab = "Standardized LTS residual"
+)
+abline(h = c(-2.5, 2.5), v = thresh, lwd = 2)
+text(
+    fit_lts$RD,
+    fit_lts$resid,
+    labels = ifelse(abs(fit_lts$resid) > 2.5 |
+                        fit_lts$RD > thresh, data_infl$year, ""),
+    pos = 1
+)
+```
+
+The bad leverages are
+
+```{r}
+data_infl$year[which(abs(fit_lts$resid) > 2.5 & fit_lts$RD > thresh)]
+```
+
+The vertical outliers are
+
+```{r}
+data_infl$year[which(abs(fit_lts$resid) > 2.5 & fit_lts$RD < thresh)]
+```

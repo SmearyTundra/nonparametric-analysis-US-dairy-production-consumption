@@ -1,0 +1,505 @@
+---
+title: "Nonparametric Analysis of US Dairy Production and Consumption"
+subtitle: "Permutation Tests for GAM"
+author:
+    - "Teo Bucci^[teo.bucci@mail.polimi.it]"
+    - "Filippo Cipriani^[filippo.cipriani@mail.polimi.it]"
+    - "Gabriele Corbo^[gabriele.corbo@mail.polimi.it]"
+    - "Andrea Puricelli^[andrea3.puricelli@mail.polimi.it]"
+output:
+    pdf_document:
+        toc: true
+        toc_depth: 3
+        number_section: true
+        #keep_md: TRUE
+    html_document:
+        toc: true
+        toc_float: true
+        number_sections: true
+date: "2023-02-17"
+editor_options:
+    chunk_output_type: inline
+---
+
+```{r setup, echo = FALSE}
+knitr::opts_chunk$set(
+    echo = TRUE,
+    dev = c('pdf'),
+    fig.align = 'center',
+    fig.path = 'output/',
+    fig.height = 5,
+    fig.width = 10
+)
+```
+
+# Load libraries and data
+
+```{r, message=FALSE}
+library(pbapply)
+library(mgcv)
+```
+
+```{r echo = T, results = 'hide'}
+data_path = file.path('data_updated_2021')
+output_path = file.path('output')
+data_infl =
+    read.table(
+        file.path(data_path, 'production_facts_inflated.csv'),
+        header = T,
+        sep = ';'
+    )
+set.seed(1)
+B = 1000
+n = nrow(data_infl)
+```
+
+# $H_0$: `alfalfa_hay_price` $= 0$ VS $H_1$: `alfalfa_hay_price` $\neq 0$
+
+```{r}
+model_gam = gam(
+    avg_price_milk ~ s(avg_milk_cow_number, bs = 'cr')
+    + s(milk_per_cow, bs = 'cr')
+    + s(dairy_ration, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_cow_cost_per_animal
+    + milk_volume_to_buy_cow_in_lbs
+    + alfalfa_hay_price
+    + s(slaughter_cow_price, bs = 'cr'),
+    data = data_infl
+)
+T0 = abs(summary(model_gam)$p.table[5, 3])
+gam.H0 = gam(
+    avg_price_milk ~ s(avg_milk_cow_number, bs = 'cr')
+    + s(milk_per_cow, bs = 'cr')
+    + s(dairy_ration, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_cow_cost_per_animal
+    + milk_volume_to_buy_cow_in_lbs
+    + s(slaughter_cow_price, bs = 'cr'),
+    data = data_infl
+)
+res.H0 = gam.H0$residuals
+
+wrapper = function() {
+    permutation = sample(n)
+    res.H0.perm = res.H0[permutation]
+    Y.perm.H0 = gam.H0$fitted + res.H0.perm
+    gam.perm = gam(
+        Y.perm.H0 ~ s(avg_milk_cow_number, bs = 'cr')
+        + s(milk_per_cow, bs = 'cr')
+        + s(dairy_ration, bs = 'cr')
+        + milk_feed_price_ratio
+        + milk_cow_cost_per_animal
+        + milk_volume_to_buy_cow_in_lbs
+        + alfalfa_hay_price
+        + s(slaughter_cow_price, bs = 'cr'),
+        data = data_infl
+    )
+    return(abs(summary(gam.perm)$p.table[5, 3]))
+}
+T_H0 = pbreplicate(B, wrapper(), simplify = 'vector')
+```
+
+
+```{r perm-test-alfalfa_hay_price}
+hist(sort(T_H0)[-1000],
+     breaks = 100,
+     main = 'Permutational distribution of test statistics',
+     xlab = '')
+abline(v = T0, col = 'red', lwd = 4)
+
+plot(ecdf(sort(T_H0)[-1000]), main = 'ECDF of test statistics')
+abline(v = T0, col = 'red', lwd = 4)
+P = sum(T_H0 >= T0) / B
+P
+```
+
+We cannot reject $H_0$ and proceed removing the covariate `alfalfa_hay_price` from the model.
+
+# $H_0$: `avg_milk_cow_number` $= 0$ VS $H_1$: `avg_milk_cow_number` $\neq 0$
+
+```{r}
+model_gam = gam(
+    avg_price_milk ~ s(avg_milk_cow_number, bs = 'cr')
+    + s(milk_per_cow, bs = 'cr')
+    + s(dairy_ration, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_cow_cost_per_animal
+    + milk_volume_to_buy_cow_in_lbs
+    + s(slaughter_cow_price, bs = 'cr'),
+    data = data_infl
+)
+T0 = abs(summary(model_gam)$s.table[1, 3])
+gam.H0 = gam(
+    avg_price_milk ~ s(milk_per_cow, bs = 'cr')
+    + s(dairy_ration, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_cow_cost_per_animal
+    + milk_volume_to_buy_cow_in_lbs
+    + s(slaughter_cow_price, bs = 'cr'),
+    data = data_infl
+)
+res.H0 = gam.H0$residuals
+
+wrapper = function() {
+    permutation = sample(n)
+    res.H0.perm = res.H0[permutation]
+    Y.perm.H0 = gam.H0$fitted + res.H0.perm
+    gam.perm = gam(
+        Y.perm.H0 ~ s(avg_milk_cow_number, bs = 'cr')
+        + s(milk_per_cow, bs = 'cr')
+        + s(dairy_ration, bs = 'cr')
+        + milk_feed_price_ratio
+        + milk_cow_cost_per_animal
+        + milk_volume_to_buy_cow_in_lbs
+        + s(slaughter_cow_price, bs = 'cr'),
+        data = data_infl
+    )
+    return(abs(summary(gam.perm)$s.table[1, 3]))
+}
+T_H0 = pbreplicate(B, wrapper(), simplify = 'vector')
+```
+
+
+```{r perm-test-avg_milk_cow_number}
+hist(T_H0,
+     breaks = 100,
+     main = 'Permutational distribution of test statistics',
+     xlab = '')
+abline(v = T0, col = 'red', lwd = 4)
+
+plot(ecdf(T_H0), main = 'ECDF of test statistics')
+abline(v = T0, col = 'red', lwd = 4)
+P = sum(T_H0 >= T0) / B
+P
+```
+
+We cannot reject $H_0$ and proceed removing the covariate `avg_milk_cow_number` from the model.
+
+# $H_0$: `slaughter_cow_price` $= 0$ VS $H_1$: `slaughter_cow_price` $\neq 0$
+
+```{r}
+model_gam = gam(
+    avg_price_milk ~ s(milk_per_cow, bs = 'cr')
+    + s(dairy_ration, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_cow_cost_per_animal
+    + milk_volume_to_buy_cow_in_lbs
+    + s(slaughter_cow_price, bs = 'cr'),
+    data = data_infl
+)
+T0 = abs(summary(model_gam)$s.table[3, 3])
+gam.H0 = gam(
+    avg_price_milk ~ s(milk_per_cow, bs = 'cr')
+    + s(dairy_ration, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_cow_cost_per_animal
+    + milk_volume_to_buy_cow_in_lbs
+    ,
+    data = data_infl
+)
+res.H0 = gam.H0$residuals
+
+wrapper = function() {
+    permutation = sample(n)
+    res.H0.perm = res.H0[permutation]
+    Y.perm.H0 = gam.H0$fitted + res.H0.perm
+    gam.perm = gam(
+        Y.perm.H0 ~ s(milk_per_cow, bs = 'cr')
+        + s(dairy_ration, bs = 'cr')
+        + milk_feed_price_ratio
+        + milk_cow_cost_per_animal
+        + milk_volume_to_buy_cow_in_lbs
+        + s(slaughter_cow_price, bs = 'cr'),
+        data = data_infl
+    )
+    return(abs(summary(gam.perm)$s.table[3, 3]))
+}
+T_H0 = pbreplicate(B, wrapper(), simplify = 'vector')
+```
+
+
+```{r perm-test-slaughter_cow_price}
+hist(T_H0,
+     breaks = 100,
+     main = 'Permutational distribution of test statistics',
+     xlab = '')
+abline(v = T0, col = 'red', lwd = 4)
+
+plot(ecdf(T_H0), main = 'ECDF of test statistics')
+abline(v = T0, col = 'red', lwd = 4)
+P = sum(T_H0 >= T0) / B
+P
+```
+
+We cannot reject $H_0$ and proceed removing the covariate `slaughter_cow_price` from the model.
+
+# $H_0$: `milk_volume_to_buy_cow_in_lbs` $= 0$ VS $H_1$: `milk_volume_to_buy_cow_in_lbs` $\neq 0$
+
+```{r}
+model_gam = gam(
+    avg_price_milk ~ s(milk_per_cow, bs = 'cr')
+    + s(dairy_ration, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_cow_cost_per_animal
+    + milk_volume_to_buy_cow_in_lbs,
+    data = data_infl
+)
+T0 = abs(summary(model_gam)$p.table[4, 3])
+gam.H0 = gam(
+    avg_price_milk ~ s(milk_per_cow, bs = 'cr')
+    + s(dairy_ration, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_cow_cost_per_animal,
+    data = data_infl
+)
+res.H0 = gam.H0$residuals
+
+wrapper = function() {
+    permutation = sample(n)
+    res.H0.perm = res.H0[permutation]
+    Y.perm.H0 = gam.H0$fitted + res.H0.perm
+    gam.perm = gam(
+        Y.perm.H0 ~ s(milk_per_cow, bs = 'cr')
+        + s(dairy_ration, bs = 'cr')
+        + milk_feed_price_ratio
+        + milk_cow_cost_per_animal
+        + milk_volume_to_buy_cow_in_lbs,
+        data = data_infl
+    )
+    return(abs(summary(gam.perm)$p.table[4, 3]))
+}
+T_H0 = pbreplicate(B, wrapper(), simplify = 'vector')
+```
+
+
+```{r perm-test-milk_volume_to_buy_cow_in_lbs}
+hist(T_H0,
+     breaks = 100,
+     main = 'Permutational distribution of test statistics',
+     xlab = '')
+abline(v = T0, col = 'red', lwd = 4)
+
+plot(ecdf(T_H0), main = 'ECDF of test statistics')
+abline(v = T0, col = 'red', lwd = 4)
+P = sum(T_H0 >= T0) / B
+P
+```
+
+We reject $H_0$, maintaining the covariate `milk_volume_to_buy_cow_in_lbs`.
+
+# $H_0$: `milk_cow_cost_per_animal` $= 0$ VS $H_1$: `milk_cow_cost_per_animal` $\neq 0$
+
+```{r}
+model_gam = gam(
+    avg_price_milk ~ s(milk_per_cow, bs = 'cr')
+    + s(dairy_ration, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_cow_cost_per_animal
+    + milk_volume_to_buy_cow_in_lbs,
+    data = data_infl
+)
+T0 = abs(summary(model_gam)$p.table[3, 3])
+gam.H0 = gam(
+    avg_price_milk ~ s(milk_per_cow, bs = 'cr')
+    + s(dairy_ration, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_volume_to_buy_cow_in_lbs,
+    data = data_infl
+)
+res.H0 = gam.H0$residuals
+
+wrapper = function() {
+    permutation = sample(n)
+    res.H0.perm = res.H0[permutation]
+    Y.perm.H0 = gam.H0$fitted + res.H0.perm
+    gam.perm = gam(
+        Y.perm.H0 ~ s(milk_per_cow, bs = 'cr')
+        + s(dairy_ration, bs = 'cr')
+        + milk_feed_price_ratio
+        + milk_cow_cost_per_animal
+        + milk_volume_to_buy_cow_in_lbs,
+        data = data_infl
+    )
+    return(abs(summary(gam.perm)$p.table[3, 3]))
+}
+T_H0 = pbreplicate(B, wrapper(), simplify = 'vector')
+```
+
+
+```{r perm-test-milk_cow_cost_per_animal}
+hist(T_H0,
+     breaks = 100,
+     main = 'Permutational distribution of test statistics',
+     xlab = '')
+abline(v = T0, col = 'red', lwd = 4)
+
+plot(ecdf(T_H0), main = 'ECDF of test statistics')
+abline(v = T0, col = 'red', lwd = 4)
+P = sum(T_H0 >= T0) / B
+P
+```
+
+We reject $H_0$, maintaining the covariate `milk_cow_cost_per_animal`.
+
+# $H_0$: `milk_feed_price_ratio` $= 0$ VS $H_1$: `milk_feed_price_ratio` $\neq 0$
+
+```{r}
+model_gam = gam(
+    avg_price_milk ~ s(milk_per_cow, bs = 'cr')
+    + s(dairy_ration, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_cow_cost_per_animal
+    + milk_volume_to_buy_cow_in_lbs,
+    data = data_infl
+)
+T0 = abs(summary(model_gam)$p.table[2, 3])
+gam.H0 = gam(
+    avg_price_milk ~ s(milk_per_cow, bs = 'cr')
+    + s(dairy_ration, bs = 'cr')
+    + milk_cow_cost_per_animal
+    + milk_volume_to_buy_cow_in_lbs,
+    data = data_infl
+)
+res.H0 = gam.H0$residuals
+
+wrapper = function() {
+    permutation = sample(n)
+    res.H0.perm = res.H0[permutation]
+    Y.perm.H0 = gam.H0$fitted + res.H0.perm
+    gam.perm = gam(
+        Y.perm.H0 ~ s(milk_per_cow, bs = 'cr')
+        + s(dairy_ration, bs = 'cr')
+        + milk_feed_price_ratio
+        + milk_cow_cost_per_animal
+        + milk_volume_to_buy_cow_in_lbs,
+        data = data_infl
+    )
+    return(abs(summary(gam.perm)$p.table[2, 3]))
+}
+T_H0 = pbreplicate(B, wrapper(), simplify = 'vector')
+```
+
+
+```{r perm-test-milk_feed_price_ratio}
+hist(T_H0,
+     breaks = 100,
+     main = 'Permutational distribution of test statistics',
+     xlab = '')
+abline(v = T0, col = 'red', lwd = 4)
+
+plot(ecdf(T_H0), main = 'ECDF of test statistics')
+abline(v = T0, col = 'red', lwd = 4)
+P = sum(T_H0 >= T0) / B
+P
+```
+
+We reject $H_0$, maintaining the covariate `milk_feed_price_ratio`.
+
+# $H_0$: `milk_per_cow` $= 0$ VS $H_1$: `milk_per_cow` $\neq 0$
+
+```{r}
+model_gam = gam(
+    avg_price_milk ~ s(milk_per_cow, bs = 'cr')
+    + s(dairy_ration, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_cow_cost_per_animal
+    + milk_volume_to_buy_cow_in_lbs,
+    data = data_infl
+)
+T0 = abs(summary(model_gam)$s.table[1, 3])
+gam.H0 = gam(
+    avg_price_milk ~ s(dairy_ration, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_cow_cost_per_animal
+    + milk_volume_to_buy_cow_in_lbs,
+    data = data_infl
+)
+res.H0 = gam.H0$residuals
+
+wrapper = function() {
+    permutation = sample(n)
+    res.H0.perm = res.H0[permutation]
+    Y.perm.H0 = gam.H0$fitted + res.H0.perm
+    gam.perm = gam(
+        Y.perm.H0 ~ s(milk_per_cow, bs = 'cr')
+        + s(dairy_ration, bs = 'cr')
+        + milk_feed_price_ratio
+        + milk_cow_cost_per_animal
+        + milk_volume_to_buy_cow_in_lbs,
+        data = data_infl
+    )
+    return(abs(summary(gam.perm)$s.table[1, 3]))
+}
+T_H0 = pbreplicate(B, wrapper(), simplify = 'vector')
+```
+
+
+```{r perm-test-milk_per_cow}
+hist(T_H0,
+     breaks = 100,
+     main = 'Permutational distribution of test statistics',
+     xlab = '')
+abline(v = T0, col = 'red', lwd = 4)
+
+plot(ecdf(T_H0), main = 'ECDF of test statistics')
+abline(v = T0, col = 'red', lwd = 4)
+P = sum(T_H0 >= T0) / B
+P
+```
+
+We reject $H_0$, maintaining the covariate `milk_per_cow`.
+
+# $H_0$: `dairy_ration` $= 0$ VS $H_1$: `dairy_ration` $\neq 0$
+
+```{r}
+model_gam = gam(
+    avg_price_milk ~ s(milk_per_cow, bs = 'cr')
+    + s(dairy_ration, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_cow_cost_per_animal
+    + milk_volume_to_buy_cow_in_lbs,
+    data = data_infl
+)
+T0 = abs(summary(model_gam)$s.table[2, 3])
+gam.H0 = gam(
+    avg_price_milk ~ s(milk_per_cow, bs = 'cr')
+    + milk_feed_price_ratio
+    + milk_cow_cost_per_animal
+    + milk_volume_to_buy_cow_in_lbs,
+    data = data_infl
+)
+res.H0 = gam.H0$residuals
+
+wrapper = function() {
+    permutation = sample(n)
+    res.H0.perm = res.H0[permutation]
+    Y.perm.H0 = gam.H0$fitted + res.H0.perm
+    gam.perm = gam(
+        Y.perm.H0 ~ s(milk_per_cow, bs = 'cr')
+        + s(dairy_ration, bs = 'cr')
+        + milk_feed_price_ratio
+        + milk_cow_cost_per_animal
+        + milk_volume_to_buy_cow_in_lbs,
+        data = data_infl
+    )
+    return(abs(summary(gam.perm)$s.table[2, 3]))
+}
+T_H0 = pbreplicate(B, wrapper(), simplify = 'vector')
+```
+
+
+```{r perm-test-dairy_ration}
+hist(T_H0,
+     breaks = 100,
+     main = 'Permutational distribution of test statistics',
+     xlab = '')
+abline(v = T0, col = 'red', lwd = 4)
+
+plot(ecdf(T_H0), main = 'ECDF of test statistics')
+abline(v = T0, col = 'red', lwd = 4)
+P = sum(T_H0 >= T0) / B
+P
+```
+
+We reject $H_0$, maintaining the covariate `dairy_ration`.
