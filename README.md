@@ -76,7 +76,7 @@ The final presentations can be found here:
 
 - [01 Midterm](./presentations/01%20Nonparametric%20Statistics%20Midterm%20Slides%20(Bucci%2C%20Cipriani%2C%20Corbo%2C%20Puricelli).pdf)
 - [02 Endterm](./presentations/02%20Nonparametric%20Statistics%20Endterm%20Slides%20(Bucci%2C%20Cipriani%2C%20Corbo%2C%20Puricelli).pdf)
-- [03 Final](./presentations/) TODO inserire
+- [03 Final](./presentations/03%20Nonparametric%20Statistics%20Final%20Slides%20(Bucci%2C%20Cipriani%2C%20Corbo%2C%20Puricelli).pdf)
 
 The final report can be found here:
 
