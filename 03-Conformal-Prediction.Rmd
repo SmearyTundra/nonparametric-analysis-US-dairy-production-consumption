@@ -64,62 +64,6 @@ n_grid = 200
 alpha = 0.10
 ```
 
-
-## Using GAM
-
-Extract train and predict GAM function
-
-- Adjust `var1`, `var2`, ecc. depending on the GAM
-- `cbind` correctly the order of the variables in the `conformal.pred`
-
-```{r}
-train_gam = function(x, y, out = NULL) {
-    colnames(x) = c('var1', 'var2', 'var3', 'var4', 'var5')
-    train_data = data.frame(y, x)
-    model_gam = gam(y ~ s(var1, bs = 'cr') + s(var2, bs = 'cr') + var3 + var4 + var5,
-                    data = train_data)
-}
-
-predict_gam = function(obj, new_x) {
-    new_x = data.frame(new_x)
-    colnames(new_x) = c('var1','var2','var3','var4','var5')
-    predict.gam(obj, new_x)
-}
-```
-
-Perform conformal prediction on the median of our dataset
-
-```{r,message=FALSE}
-point = c(
-    median(data_infl$milk_per_cow),
-    median(data_infl$dairy_ration),
-    median(data_infl$milk_feed_price_ratio),
-    median(data_infl$milk_cow_cost_per_animal),
-    median(data_infl$milk_volume_to_buy_cow_in_lbs)
-)
-  
-c_preds = conformal.pred(
-    cbind(
-        data_infl$milk_per_cow,
-        data_infl$dairy_ration,
-        data_infl$milk_feed_price_ratio,
-        data_infl$milk_cow_cost_per_animal,
-        data_infl$milk_volume_to_buy_cow_in_lbs
-    ),
-    data_infl$avg_price_milk,
-    point,
-    alpha = alpha,
-    verbose = T,
-    train.fun = train_gam ,
-    predict.fun = predict_gam,
-    num.grid.pts = n_grid
-)
-
-c("LOWER" = c_preds$lo,
-  "PRED" = c_preds$pred,
-  "UPPER" = c_preds$up)
-```
-
 ## Using T Prediction Intervals
 
 ```{r}
@@ -216,20 +160,18 @@ hist(
 )
 lines(density(y))
 
-abline(v = c(c_preds$lo, c_preds$up),col = 'red',lwd = 2)
 abline(v = jitter(pred_t_interval, amount=0.003), col = 'blue', lwd = 1)
 abline(v = jitter(pred_knn, amount=0.003), col = 'orange', lwd = 1)
 abline(v = jitter(pred_mahalanobis, amount=0.003), col = 'green', lwd = 2)
 
 legend("topright",
-       legend = c("GAM", "T Prediction Interval", "KNN", "Mahalanobis"),
-       fill = c("red", "blue", "orange", "green"))
+       legend = c("T Prediction Interval", "KNN", "Mahalanobis"),
+       fill = c("blue", "orange", "green"))
 ```
 
 ```{r}
 result = data.frame(
     rbind(
-        "GAM"=c(c_preds$lo, c_preds$up),
         "T Prediction Interval"=pred_t_interval,
         "KNN"=pred_knn,
         "Mahalanobis"=pred_mahalanobis
