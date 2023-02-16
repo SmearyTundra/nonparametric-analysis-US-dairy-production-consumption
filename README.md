@@ -67,6 +67,7 @@ install.packages(packages_list)
 
 The repository contains different files to perform the analysis
 
+TODO spiegare
 - `FILENAME.R` explained
 - `FILENAME.R` explained
 - `FILENAME.R` explained
@@ -75,11 +76,13 @@ The repository contains different files to perform the analysis
 
 The final presentations can be found here:
 
-- [Presentation DATE](./path-to-file.pdf)
+- [01 Midterm](./presentations/01%20Nonparametric%20Statistics%20Midterm%20Slides%20(Bucci%2C%20Cipriani%2C%20Corbo%2C%20Puricelli).pdf)
+- [02 Endterm](./presentations/02%20Nonparametric%20Statistics%20Endterm%20Slides%20(Bucci%2C%20Cipriani%2C%20Corbo%2C%20Puricelli).pdf)
+- [03 Final](./presentations/) TODO inserire
 
 The final report can be found here:
 
-- [`FILENAME.pdf`](./path-to-file.pdf)
+- [`FILENAME.pdf`](./report/) TODO inserire
 
 # Authors
 
