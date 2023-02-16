@@ -1,1 +1,13 @@
 *.DS_Store
+*.Rproj.user
+*.Rhistory
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.xml
+*.gz
+*.toc
