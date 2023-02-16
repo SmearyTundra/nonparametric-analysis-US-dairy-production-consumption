@@ -58,7 +58,8 @@ packages_list <-
         "ggspatial",
         "BNPTSclust",
         "roahd",
-        "fda.usc"
+        "fda.usc",
+        "npsp"
     )
 install.packages(packages_list)
 ```
