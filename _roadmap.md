@@ -56,6 +56,10 @@ Andre
 - [x] descrizione dataset nel report
 - [x] verbalizzare parte outlier anni e letta generale se il collante funziona
 
+- [ ] Sistemare il README
+- [ ] caricare il report nella repo
+- [ ] caricare le slides finali nella repo
+
 ## Sources
 Npsp package: https://rubenfcasal.github.io/npsp/index.html
 NPSP paper: https://link.springer.com/article/10.1007/s00477-017-1407-y
