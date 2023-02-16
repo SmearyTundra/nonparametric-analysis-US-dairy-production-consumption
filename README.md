@@ -11,8 +11,7 @@ This report presents a nonparametric analysis of the evolution of dairy producti
 - [Installation](#installation)
   - [How to clone the repository](#how-to-clone-the-repository)
   - [How to install the packages](#how-to-install-the-packages)
-- [Running the analysis](#running-the-analysis)
-- [Final results](#final-results)
+- [Analysis and results](#analysis-and-results)
 - [Authors](#authors)
 
 # Installation
@@ -45,10 +44,8 @@ packages_list <-
         "robustbase",
         "readxl",
         "tidyr",
-        "ISLR2",
         "car",
         "sp",
-        "devtools",
         "visreg",
         "mgcViz",
         "usmap",
@@ -64,18 +61,17 @@ packages_list <-
 install.packages(packages_list)
 ```
 
-# Running the analysis
+# Analysis and results
 
 The repository contains different files to perform the analysis, here we report their explanation together with a hyperlink to the knitted PDF version:
 
-- [`01-GAM.pdf`](./01-GAM.pdf) provides the implementation for the GAM model and the reverse percentile bootstrap confindence intervals.
+- [`01-Conformal-Prediction.pdf`](./01-Conformal-Prediction.pdf) contains the implementation of the prediction intervals using a conformal approach.
 - [`02-Permutation-Tests-for-GAM.pdf`](./02-Permutation-Tests-for-GAM.pdf) contains the permutation tests performed to reduce GAM and keep significant covariates only.
-- [`03-Conformal-Prediction.pdf`](./03-Conformal-Prediction.pdf) contains the implementation of the prediction intervals using a conformal approach.
+- [`03-GAM.pdf`](./03-GAM.pdf) provides the implementation for the GAM model and the reverse percentile bootstrap confindence intervals.
 - [`04-Robustness.pdf`](./04-Robustness.pdf) contains the robust regression used to detect years outliers.
-- SPATIAL
+- [`05-Spatial-GAM.pdf`](./05-Spatial-GAM.pdf) empowers a GAM using spatial coordinates.
+- [`05-Spatial-Nonparametric.pdf`](./05-Spatial-Nonparametric.pdf) implements a nonparametric kriging.
 - [`06-Functional-Depth.pdf`](./06-Functional-Depth.pdf) contains the Bayesian nonparametric clustering as well as an exploratory analysis of such clusters using depth measures.
-
-# Final results
 
 The final presentations can be found here:
 
