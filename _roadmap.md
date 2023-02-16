@@ -16,10 +16,8 @@
 - [x] Tutta la gam ma con l'inflazione
 - [x] Conformal prediction on our price prediction?
 - [x] Model selection (via permutation test)
-- [ ] Conformal prediction for functional data?
 - [x] Conformal prediction on milk price
 - [x] Trovare paper simili
-- [ ] ~~fittare la time series~~
 - [x] [Import/export retrieve data](https://apps.fas.usda.gov/gats/default.aspx)
 - [x] Functional graph con colori formaggio
 
@@ -29,13 +27,13 @@ Presentazione:
 - [x] Decidere Grafici Functional
 
 Post 23/12
-- [ ] Cluster Analysis fil inviami il csv ziopera
+- [x] Cluster Analysis fil inviami il csv ziopera
 - [x] Outliers formaggi [@Gabri] [non ce ne sono si gode]
 - [x] Outliers anni [@Andre]
 - [x] Explanation Gam coefficients [@Teo]
 - [x] Distanze Conformal [@Andre sono state provate tutte?]
 - [x] Provare casi particolari fittizi o no (emoji teo) [@Fili]
-- [x] ~~Spatial~~
+- [x] Spatial
 - [x] Stakeholders Analysis [@Tutti]
 
 Ultimo rush
@@ -44,11 +42,11 @@ Teo
 - [x] carico su overleaf il report
 - [x] 05 06 convertire in rmd
 - [x] riportare in report coefficienti
-- [ ] riportare in presentazione coefficienti
+- [x] riportare in presentazione coefficienti
 
 Gabri
-- [ ] cluster analysis
-- [ ] 1-2 Rmd
+- [x] cluster analysis
+- [x] 1-2 Rmd
 - [x] 8-9 Rmd
 
 Fili
