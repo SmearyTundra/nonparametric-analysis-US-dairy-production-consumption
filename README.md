@@ -69,8 +69,7 @@ The repository contains different files to perform the analysis, here we report 
 - [`02-Permutation-Tests-for-GAM.pdf`](./02-Permutation-Tests-for-GAM.pdf) contains the permutation tests performed to reduce GAM and keep significant covariates only.
 - [`03-GAM.pdf`](./03-GAM.pdf) provides the implementation for the GAM model and the reverse percentile bootstrap confindence intervals.
 - [`04-Robustness.pdf`](./04-Robustness.pdf) contains the robust regression used to detect years outliers.
-- [`05-Spatial-GAM.pdf`](./05-Spatial-GAM.pdf) empowers a GAM using spatial coordinates.
-- [`05-Spatial-Nonparametric.pdf`](./05-Spatial-Nonparametric.pdf) implements a nonparametric kriging.
+- [`05-Spatial-GAM.pdf`](./05-Spatial-GAM.pdf) empowers a GAM using spatial coordinates, while [`05-Spatial-Nonparametric.pdf`](./05-Spatial-Nonparametric.pdf) implements a nonparametric kriging.
 - [`06-Functional-Depth.pdf`](./06-Functional-Depth.pdf) contains the Bayesian nonparametric clustering as well as an exploratory analysis of such clusters using depth measures.
 
 The final presentations can be found here:
