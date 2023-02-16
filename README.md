@@ -21,8 +21,6 @@ This report presents a nonparametric analysis of the evolution of dairy producti
 
 ```
 git clone https://github.com/SmearyTundra/nonparametric-analysis-US-dairy-production-consumption
-git submodule update --init
-git submodule update --recursive
 ```
 
 ## How to install the packages
