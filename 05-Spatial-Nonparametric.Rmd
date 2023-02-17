@@ -52,6 +52,8 @@ source("05-Prepare-data-spatial.R",echo=FALSE)
 
 # Study of the Dairy prodction in 2007
 
+Using log values of the population and the dairy sales to avoid scalability problems and setting up the coordinates for spatial analysis
+
 ```{r}
 dat1 <- all_sales_county_2007
 dat1 <- dat1[-c(1,2,3)]
@@ -65,6 +67,8 @@ scattersplot(log_dat, main = 'Milk and cheese sales', xlab = 'Longitude',
 ```
 
 # Trend estimates for log_value
+
+Plotting the estimates of the model using a local linear estimator
 
 ```{r,warning=FALSE}
 attr_prec <- attributes(precipitation)
@@ -86,6 +90,8 @@ plot(interior, border = "lightgray", lwd = 1, add = TRUE)
 
 # Bandwidth selection
 
+Tuning of the bandwidth using CV
+
 ```{r,warning=FALSE}
 bin <- binning(x, y, window = border)
 lp0.h <- h.cv(bin)$h
@@ -99,6 +105,8 @@ plot(interior, border = "lightgray", lwd = 1, add = TRUE)
 ```
 
 # Variogram estimation
+
+Plotting the estimates of the bias-corrected semivariogram
 
 ```{r,warning=FALSE}
 lp0 <- locpol(bin, h = lp0.h, hat.bin = TRUE)
@@ -123,6 +131,8 @@ legend("bottomright", legend = c("corrected", 'biased'),
 
 # Automatic modelling
 
+\texttt{np.fitgeo()} repeats the same procedure all in one step
+
 ```{r,warning=FALSE}
 geomod <- np.fitgeo(x, y, nbin = c(30, 30), maxlag = 45,
                     svm.resid = TRUE, window = border)
@@ -131,6 +141,8 @@ plot(geomod)
 ```
 
 # Kriging
+
+Using the model estimates and the semivariogram we can use a kriging prediction method
 
 ```{r}
 krig.grid <- np.kriging(geomod, ngrid = c(120, 120))
