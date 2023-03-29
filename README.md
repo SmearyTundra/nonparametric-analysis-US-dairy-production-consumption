@@ -3,7 +3,9 @@
 
 This project was developed for the course of "Nonparametric Statistics" held at Politecnico di Milano in the academic year 2022-2023.
 
-This report presents a nonparametric analysis of the evolution of dairy production and consumption in the United States from 1980 to 2021. It starts from the needs of a stakeholders which is about to enter the market and step-by-step presents our analysis and the findings to provide meaningful information to optimize production and pricing. We also provide an outlier analysis in terms of years and, in the last part, a spatial analysis and a clustering of the types of cheese.
+> 🏆 This was the highest ranking project in its year batch.
+
+We present a nonparametric analysis of the evolution of dairy production and consumption in the United States from 1980 to 2021. Starting from the needs of a stakeholders which is about to enter the market, we present a step-by-step analysis and the findings to provide meaningful information to optimize production and pricing. We also provide an outlier analysis in terms of years and, in the last part, a spatial analysis and a clustering of the types of cheese.
 
 <!-- omit from toc -->
 # Table of contents
